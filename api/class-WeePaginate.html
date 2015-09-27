@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class WeePaginate | WeePHP API</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Packages</h3>
+			<ul>
+				<li>
+					<a href="package-None.html">
+						None					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.html">
+						WeePHP<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="package-WeePHP.Core.html">
+						Core					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.UserLibraries.html">
+						UserLibraries					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-WeePaginate.html">WeePaginate</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+<span>Package</span>			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class WeePaginate</h1>
+
+
+	<div class="description">
+	<p>WeePaginate</p>
+
+<p>Paginate various content</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-WeePHP.html">WeePHP</a><br>
+
+				<b>Author:</b>
+				Hugues Polaert <a href="&#109;&#97;&#x69;&#108;&#x74;&#111;&#x3a;&#104;&#x75;&#103;u&#x65;&#115;&#x2e;&#112;&#x6f;&#108;&#x61;&#101;&#x72;&#116;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;m">&#104;&#x75;&#103;u&#x65;&#115;&#x2e;&#112;&#x6f;&#108;&#x61;&#101;&#x72;&#116;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;m</a><br>
+				<b>Version:</b>
+				0.1<br>
+			<b>Located at</b> <a href="source-class-WeePaginate.html#13-439" title="Go to source code">WeePaginate.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-WeePaginate.html">WeePaginate</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-WeePaginate.html#95-110" title="Go to source code">__construct</a>( <span>boolean <var>$internalErrorHandler</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Class constructor
+Optional argument to use the class externally (internal error handler)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Class constructor
+Optional argument to use the class externally (internal error handler)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$internalErrorHandler</var></dt>
+					<dd>True when used outside the framework</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-WeePaginate.html">WeePaginate</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getNavigation" id="_getNavigation">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getNavigation">#</a>
+		<code><a href="source-class-WeePaginate.html#112-269" title="Go to source code">getNavigation</a>( <span>string <var>$mode</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Build navigation links according to a set of parameters</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Build navigation links according to a set of parameters</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$mode</var></dt>
+					<dd>Either basic (all pages are displayed) or slide (provide a range and auto add elipsis)</dd>
+					<dt><var>$options</var></dt>
+					<dd>Array of parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="arrayContent" id="_arrayContent">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_arrayContent">#</a>
+		<code><a href="source-class-WeePaginate.html#271-282" title="Go to source code">arrayContent</a>( <span>integer <var>$currentPage</var></span>, <span>integer <var>$elementsByPage</var></span>, <span>array <var>$array</var></span> )</code>
+
+		<div class="description short">
+			<p>Simple alias to paginate a given array (for instance, the result of a db query)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Simple alias to paginate a given array (for instance, the result of a db query)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$currentPage</var></dt>
+					<dd>Either basic (all pages are displayed) or slide (provide a range and auto add elipsis)</dd>
+					<dt><var>$elementsByPage</var></dt>
+					<dd>Nb of elements by page to be dispalyed</dd>
+					<dt><var>$array</var></dt>
+					<dd>Array to be paginated</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="content" id="_content">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_content">#</a>
+		<code><a href="source-class-WeePaginate.html#284-354" title="Go to source code">content</a>( <span>integer <var>$currentPage</var></span>, <span>integer <var>$elementsByPage</var></span>, <span>string <var>$content</var></span>, <span>string <var>$pattern</var></span>, <span>array <var>$array</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Core class method, paginate file/html or array content and returns it as an array</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Core class method, paginate file/html or array content and returns it as an array</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$currentPage</var></dt>
+					<dd>Either basic (all pages are displayed) or slide (provide a range and auto add elipsis)</dd>
+					<dt><var>$elementsByPage</var></dt>
+					<dd>Nb of elements by page to be dispalyed</dd>
+					<dt><var>$content</var></dt>
+					<dd>Content of a file</dd>
+					<dt><var>$pattern</var></dt>
+					<dd>Regex expression for array split</dd>
+					<dt><var>$array</var></dt>
+					<dd>Array to be paginated</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fileContent" id="_fileContent">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fileContent">#</a>
+		<code><a href="source-class-WeePaginate.html#356-369" title="Go to source code">fileContent</a>( <span>integer <var>$currentPage</var></span>, <span>integer <var>$elementsByPage</var></span>, <span>string <var>$filePath</var></span>, <span>array <var>$pattern</var></span> )</code>
+
+		<div class="description short">
+			<p>Simple alias to paginate a given file</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Simple alias to paginate a given file</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$currentPage</var></dt>
+					<dd>Current page number</dd>
+					<dt><var>$elementsByPage</var></dt>
+					<dd>Nb of elements by page to be dispalyed</dd>
+					<dt><var>$filePath</var></dt>
+					<dd>Location of the file to be paginated</dd>
+					<dt><var>$pattern</var></dt>
+					<dd>Regex expression for array split</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setInternalErrorHandler" id="_setInternalErrorHandler">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setInternalErrorHandler">#</a>
+		<code><a href="source-class-WeePaginate.html#423-430" title="Go to source code">setInternalErrorHandler</a>( <span>boolean <var>$internalErrorHandler</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter error handling mode (either true or false)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter error handling mode (either true or false)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$internalErrorHandler</var></dt>
+					<dd>Internal Error Handler</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getInternalErrorHandler" id="_getInternalErrorHandler">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getInternalErrorHandler">#</a>
+		<code><a href="source-class-WeePaginate.html#432-438" title="Go to source code">getInternalErrorHandler</a>( )</code>
+
+		<div class="description short">
+			<p>Getter error handling mode (either true or false)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Getter error handling mode (either true or false)</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_errors" id="$_errors">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeePaginate.html#23-27" title="Go to source code"><var>$_errors</var></a>
+
+			<div class="description short">
+				<p>Array of error codes</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Array of error codes</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_errors" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_elements" id="$_elements">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeePaginate.html#29-33" title="Go to source code"><var>$_elements</var></a>
+
+			<div class="description short">
+				<p>Array of elements to be paginated</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Array of elements to be paginated</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_elements" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_currentPage" id="$_currentPage">
+		<td class="attributes"><code>
+			protected  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeePaginate.html#35-39" title="Go to source code"><var>$_currentPage</var></a>
+
+			<div class="description short">
+				<p>Current page</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Current page</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_currentPage" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_nbOfPages" id="$_nbOfPages">
+		<td class="attributes"><code>
+			protected  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeePaginate.html#41-45" title="Go to source code"><var>$_nbOfPages</var></a>
+
+			<div class="description short">
+				<p>Number of pages</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Number of pages</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_nbOfPages" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_nextPage" id="$_nextPage">
+		<td class="attributes"><code>
+			protected  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeePaginate.html#47-51" title="Go to source code"><var>$_nextPage</var></a>
+
+			<div class="description short">
+				<p>Next page</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Next page</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_nextPage" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_previousPage" id="$_previousPage">
+		<td class="attributes"><code>
+			protected  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeePaginate.html#53-57" title="Go to source code"><var>$_previousPage</var></a>
+
+			<div class="description short">
+				<p>Previous page</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Previous page</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_previousPage" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_firstPage" id="$_firstPage">
+		<td class="attributes"><code>
+			protected  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeePaginate.html#59-63" title="Go to source code"><var>$_firstPage</var></a>
+
+			<div class="description short">
+				<p>First page</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>First page</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_firstPage" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_lastPage" id="$_lastPage">
+		<td class="attributes"><code>
+			protected  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeePaginate.html#65-69" title="Go to source code"><var>$_lastPage</var></a>
+
+			<div class="description short">
+				<p>Last page</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Last page</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_lastPage" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_nbOfElements" id="$_nbOfElements">
+		<td class="attributes"><code>
+			protected  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeePaginate.html#71-75" title="Go to source code"><var>$_nbOfElements</var></a>
+
+			<div class="description short">
+				<p>Total number of elements</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Total number of elements</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_nbOfElements" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_baseURL" id="$_baseURL">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeePaginate.html#77-81" title="Go to source code"><var>$_baseURL</var></a>
+
+			<div class="description short">
+				<p>Base URL without the ?page var</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Base URL without the ?page var</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_baseURL" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_internalErrorHandler" id="$_internalErrorHandler">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeePaginate.html#83-87" title="Go to source code"><var>$_internalErrorHandler</var></a>
+
+			<div class="description short">
+				<p>Internal error handler</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Internal error handler</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_internalErrorHandler" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_systemWidgetsLocation" id="$_systemWidgetsLocation">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeePaginate.html#89-93" title="Go to source code"><var>$_systemWidgetsLocation</var></a>
+
+			<div class="description short">
+				<p>Widget to be parsed</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Widget to be parsed</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_systemWidgetsLocation" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		WeePHP API API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

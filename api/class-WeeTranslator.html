@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class WeeTranslator | WeePHP API</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Packages</h3>
+			<ul>
+				<li>
+					<a href="package-None.html">
+						None					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.html">
+						WeePHP<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="package-WeePHP.Core.html">
+						Core					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.UserLibraries.html">
+						UserLibraries					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WeeController.html">WeeController</a></li>
+				<li><a href="class-WeeDispatcher.html">WeeDispatcher</a></li>
+				<li><a href="class-WeeHooks.html">WeeHooks</a></li>
+				<li><a href="class-WeeModel.html">WeeModel</a></li>
+				<li><a href="class-WeeReporting.html">WeeReporting</a></li>
+				<li><a href="class-WeeSession.html">WeeSession</a></li>
+				<li><a href="class-WeeTemplate.html">WeeTemplate</a></li>
+				<li class="active"><a href="class-WeeTranslator.html">WeeTranslator</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+<span>Package</span>			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class WeeTranslator</h1>
+
+
+	<div class="description">
+	<p>WeeTranslator</p>
+
+<p>Utility class to handle and store translates</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-WeePHP.html">WeePHP</a>\<a href="package-WeePHP.Core.html">Core</a><br>
+
+				<b>Author:</b>
+				Hugues Polaert <a href="&#109;&#97;&#x69;&#108;&#x74;&#111;&#x3a;&#104;&#x75;&#103;u&#x65;&#115;&#x2e;&#112;&#x6f;&#108;&#x61;&#101;&#x72;&#116;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;m">&#104;&#x75;&#103;u&#x65;&#115;&#x2e;&#112;&#x6f;&#108;&#x61;&#101;&#x72;&#116;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;m</a><br>
+				<b>Version:</b>
+				0.1<br>
+			<b>Located at</b> <a href="source-class-WeeTranslator.html#16-62" title="Go to source code">WeeTranslator.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="translate" id="_translate">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_translate">#</a>
+		<code><a href="source-class-WeeTranslator.html#31-44" title="Go to source code">translate</a>( <span>string <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>Translation a given index into the target language</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Translation a given index into the target language</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd>Index to be translated</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setLang" id="_setLang">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setLang">#</a>
+		<code><a href="source-class-WeeTranslator.html#46-61" title="Go to source code">setLang</a>( <span>array <var>$lang</var></span>, <span>boolean <var>$priority</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Public setter translation array
+Also accepts systems languages</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Public setter translation array
+Also accepts systems languages</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$lang</var></dt>
+					<dd>Lang Array</dd>
+					<dt><var>$priority</var></dt>
+					<dd>Merge order (optional)</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_lang" id="$_lang">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTranslator.html#25-29" title="Go to source code"><var>$_lang</var></a>
+
+			<div class="description short">
+				<p>Translation array</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Translation array</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_lang" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		WeePHP API API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

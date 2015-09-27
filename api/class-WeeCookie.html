@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class WeeCookie | WeePHP API</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Packages</h3>
+			<ul>
+				<li>
+					<a href="package-None.html">
+						None					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.html">
+						WeePHP<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="package-WeePHP.Core.html">
+						Core					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.UserLibraries.html">
+						UserLibraries					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WeeAuth.html">WeeAuth</a></li>
+				<li><a href="class-WeeConfig.html">WeeConfig</a></li>
+				<li class="active"><a href="class-WeeCookie.html">WeeCookie</a></li>
+				<li><a href="class-WeeDBGenericAccess.html">WeeDBGenericAccess</a></li>
+				<li><a href="class-WeeFile.html">WeeFile</a></li>
+				<li><a href="class-WeeFilter.html">WeeFilter</a></li>
+				<li><a href="class-WeeGal.html">WeeGal</a></li>
+				<li><a href="class-WeeImg.html">WeeImg</a></li>
+				<li><a href="class-WeeMail.html">WeeMail</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+<span>Package</span>			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class WeeCookie</h1>
+
+
+	<div class="description">
+	<p>WeeCookie</p>
+
+<p>Write and retrieve cookies !</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-WeePHP.html">WeePHP</a>\<a href="package-WeePHP.UserLibraries.html">UserLibraries</a><br>
+
+				<b>Author:</b>
+				Hugues Polaert <a href="&#109;&#97;&#x69;&#108;&#x74;&#111;&#x3a;&#104;&#x75;&#103;u&#x65;&#115;&#x2e;&#112;&#x6f;&#108;&#x61;&#101;&#x72;&#116;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;m">&#104;&#x75;&#103;u&#x65;&#115;&#x2e;&#112;&#x6f;&#108;&#x61;&#101;&#x72;&#116;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;m</a><br>
+				<b>Version:</b>
+				0.1<br>
+			<b>Located at</b> <a href="source-class-WeeCookie.html#16-187" title="Go to source code">WeeCookie.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-WeeCookie.html">WeeCookie</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-WeeCookie.html#31-42" title="Go to source code">__construct</a>( <span>boolean <var>$internalErrorHandler</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Class constructor
+Optional argument to use the class externally (internal error handler)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Class constructor
+Optional argument to use the class externally (internal error handler)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$internalErrorHandler</var></dt>
+					<dd>True when used outside the framework</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-WeeCookie.html">WeeCookie</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set" id="_set">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set">#</a>
+		<code><a href="source-class-WeeCookie.html#44-62" title="Go to source code">set</a>( <span>string <var>$name</var></span>, <span>string <var>$value</var></span>, <span>string <var>$expire</var></span>, <span>string <var>$path</var> = <span class="php-quote">'/'</span></span>, <span>string <var>$domain</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Create a cookie</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Create a cookie</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd>Var name</dd>
+					<dt><var>$value</var></dt>
+					<dd>Associated value</dd>
+					<dt><var>$expire</var></dt>
+					<dd>Expiration time (30M = 30 minutes, 30S = 30 secondes, 30D = 30 days)</dd>
+					<dt><var>$path</var></dt>
+					<dd>Path (by default all)</dd>
+					<dt><var>$domain</var></dt>
+					<dd>Domain availability (by default all)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fetch" id="_fetch">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fetch">#</a>
+		<code><a href="source-class-WeeCookie.html#92-105" title="Go to source code">fetch</a>( <span>string <var>$name</var></span> )</code>
+
+		<div class="description short">
+			<p>Fetch a cookie</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Fetch a cookie</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd>Cookie name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clear" id="_clear">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clear">#</a>
+		<code><a href="source-class-WeeCookie.html#107-121" title="Go to source code">clear</a>( <span>string <var>$name</var></span> )</code>
+
+		<div class="description short">
+			<p>Clear a cookie</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Clear a cookie</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd>Cookie name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="update" id="_update">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_update">#</a>
+		<code><a href="source-class-WeeCookie.html#123-137" title="Go to source code">update</a>( <span>string <var>$name</var></span>, <span>string <var>$newValue</var></span> )</code>
+
+		<div class="description short">
+			<p>Update a cookie</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Update a cookie</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd>Cookie name</dd>
+					<dt><var>$newValue</var></dt>
+					<dd>New value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="extend" id="_extend">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_extend">#</a>
+		<code><a href="source-class-WeeCookie.html#139-153" title="Go to source code">extend</a>( <span>string <var>$name</var></span>, <span>string <var>$newExpiration</var></span> )</code>
+
+		<div class="description short">
+			<p>Extend a cookie</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Extend a cookie</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd>Cookie name</dd>
+					<dt><var>$newExpiration</var></dt>
+					<dd>New expiration time</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="exists" id="_exists">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_exists">#</a>
+		<code><a href="source-class-WeeCookie.html#155-168" title="Go to source code">exists</a>( <span>string <var>$name</var></span> )</code>
+
+		<div class="description short">
+			<p>Check if a cookie exists</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Check if a cookie exists</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd>Cookie name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setInternalErrorHandler" id="_setInternalErrorHandler">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setInternalErrorHandler">#</a>
+		<code><a href="source-class-WeeCookie.html#171-178" title="Go to source code">setInternalErrorHandler</a>( <span>boolean <var>$internalErrorHandler</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter error handling mode (either true or false)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter error handling mode (either true or false)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$internalErrorHandler</var></dt>
+					<dd>Internal Error Handler</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getInternalErrorHandler" id="_getInternalErrorHandler">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getInternalErrorHandler">#</a>
+		<code><a href="source-class-WeeCookie.html#180-186" title="Go to source code">getInternalErrorHandler</a>( )</code>
+
+		<div class="description short">
+			<p>Getter error handling mode (either true or false)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Getter error handling mode (either true or false)</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_internalErrorHandler" id="$_internalErrorHandler">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeCookie.html#25-29" title="Go to source code"><var>$_internalErrorHandler</var></a>
+
+			<div class="description short">
+				<p>Internal error handler</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Internal error handler</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_internalErrorHandler" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		WeePHP API API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

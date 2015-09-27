@@ -1,0 +1,2824 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class WeeAuth | WeePHP API</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Packages</h3>
+			<ul>
+				<li>
+					<a href="package-None.html">
+						None					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.html">
+						WeePHP<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="package-WeePHP.Core.html">
+						Core					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.UserLibraries.html">
+						UserLibraries					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-WeeAuth.html">WeeAuth</a></li>
+				<li><a href="class-WeeConfig.html">WeeConfig</a></li>
+				<li><a href="class-WeeCookie.html">WeeCookie</a></li>
+				<li><a href="class-WeeDBGenericAccess.html">WeeDBGenericAccess</a></li>
+				<li><a href="class-WeeFile.html">WeeFile</a></li>
+				<li><a href="class-WeeFilter.html">WeeFilter</a></li>
+				<li><a href="class-WeeGal.html">WeeGal</a></li>
+				<li><a href="class-WeeImg.html">WeeImg</a></li>
+				<li><a href="class-WeeMail.html">WeeMail</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+<span>Package</span>			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class WeeAuth</h1>
+
+
+	<div class="description">
+	<p>WeeAuth</p>
+
+<p>User lib to handle authentication</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-WeePHP.html">WeePHP</a>\<a href="package-WeePHP.UserLibraries.html">UserLibraries</a><br>
+
+				<b>Author:</b>
+				Hugues Polaert <a href="&#109;&#97;&#x69;&#108;&#x74;&#111;&#x3a;&#104;&#x75;&#103;u&#x65;&#115;&#x2e;&#112;&#x6f;&#108;&#x61;&#101;&#x72;&#116;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;m">&#104;&#x75;&#103;u&#x65;&#115;&#x2e;&#112;&#x6f;&#108;&#x61;&#101;&#x72;&#116;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;m</a><br>
+				<b>Version:</b>
+				0.1<br>
+			<b>Located at</b> <a href="source-class-WeeAuth.html#16-1689" title="Go to source code">WeeAuth.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-WeeAuth.html">WeeAuth</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-WeeAuth.html#113-130" title="Go to source code">__construct</a>( <span>boolean <var>$internalErrorHandler</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Class constructor
+Optional argument to use the class externally (internal error handler)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Class constructor
+Optional argument to use the class externally (internal error handler)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$internalErrorHandler</var></dt>
+					<dd>True when used outside the framework</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-WeeAuth.html">WeeAuth</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="authenticateFromCookie" id="_authenticateFromCookie">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_authenticateFromCookie">#</a>
+		<code><a href="source-class-WeeAuth.html#132-145" title="Go to source code">authenticateFromCookie</a>( )</code>
+
+		<div class="description short">
+			<p>Cookie/session authentication</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Cookie/session authentication</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="authenticate" id="_authenticate">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_authenticate">#</a>
+		<code><a href="source-class-WeeAuth.html#147-194" title="Go to source code">authenticate</a>( <span>string <var>$username</var></span>, <span>string <var>$password</var></span>, <span>boolean <var>$cookieRememberMe</var> = <span class="php-keyword1">FALSE</span></span>, <span>integer <var>$cookieDuration</var> = <span class="php-num">30</span></span> )</code>
+
+		<div class="description short">
+			<p>User authentication</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>User authentication</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$username</var></dt>
+					<dd>Username</dd>
+					<dt><var>$password</var></dt>
+					<dd>Password</dd>
+					<dt><var>$cookieRememberMe</var></dt>
+					<dd>Remember me function extension session cookie</dd>
+					<dt><var>$cookieDuration</var></dt>
+					<dd>Cookie duration in days</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="logout" id="_logout">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_logout">#</a>
+		<code><a href="source-class-WeeAuth.html#229-245" title="Go to source code">logout</a>( )</code>
+
+		<div class="description short">
+			<p>User Logout</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>User Logout</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createUser" id="_createUser">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createUser">#</a>
+		<code><a href="source-class-WeeAuth.html#247-356" title="Go to source code">createUser</a>( <span>string <var>$username</var></span>, <span>string <var>$password</var> = <span class="php-keyword1">NULL</span></span>, <span>string <var>$firstname</var> = <span class="php-keyword1">NULL</span></span>, <span>string <var>$lastname</var> = <span class="php-keyword1">NULL</span></span>, <span>string <var>$email</var> = <span class="php-keyword1">NULL</span></span>, <span>string <var>$reminder</var> = <span class="php-keyword1">NULL</span></span>, <span>boolean <var>$activated</var> = <span class="php-keyword1">TRUE</span></span>, <span> <var>$needtokenactivation</var> = <span class="php-keyword1">FALSE</span></span>, <span> <var>$sendpasswordbyemail</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>User insertion</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>User insertion</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$username</var></dt>
+					<dd>Username</dd>
+					<dt><var>$password</var></dt>
+					<dd>Password (system-generated when not defined)</dd>
+					<dt><var>$firstname</var></dt>
+					<dd>Optional first name</dd>
+					<dt><var>$lastname</var></dt>
+					<dd>Optional last name</dd>
+					<dt><var>$email</var></dt>
+					<dd>Optional email</dd>
+					<dt><var>$reminder</var></dt>
+					<dd>Optional password reminder</dd>
+					<dt><var>$activated</var></dt>
+					<dd>Activation requirement (by default activated)</dd>
+					<dt><var>$needtokenactivation</var></dt>
+					<dd></dd>
+					<dt><var>$sendpasswordbyemail</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateToken" id="_validateToken">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateToken">#</a>
+		<code><a href="source-class-WeeAuth.html#425-452" title="Go to source code">validateToken</a>( <span>string <var>$token</var></span> )</code>
+
+		<div class="description short">
+			<p>Token validation</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Token validation</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$token</var></dt>
+					<dd>Token to be validated</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="activateAccount" id="_activateAccount">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_activateAccount">#</a>
+		<code><a href="source-class-WeeAuth.html#454-480" title="Go to source code">activateAccount</a>( <span>string <var>$userID</var></span>, <span>boolean <var>$removeToken</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Account activation</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Account activation</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userID</var></dt>
+					<dd>User id</dd>
+					<dt><var>$removeToken</var></dt>
+					<dd>Remove the token when activating the account</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="deactivateAccount" id="_deactivateAccount">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_deactivateAccount">#</a>
+		<code><a href="source-class-WeeAuth.html#482-505" title="Go to source code">deactivateAccount</a>( <span>string <var>$userID</var></span> )</code>
+
+		<div class="description short">
+			<p>Account deactivateion</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Account deactivateion</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userID</var></dt>
+					<dd>Token to be validated</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="blockAccount" id="_blockAccount">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_blockAccount">#</a>
+		<code><a href="source-class-WeeAuth.html#507-529" title="Go to source code">blockAccount</a>( <span>string <var>$userID</var></span> )</code>
+
+		<div class="description short">
+			<p>Block an account (after x failed login attemps for instance)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Block an account (after x failed login attemps for instance)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userID</var></dt>
+					<dd>Used id to block</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="unblockAccount" id="_unblockAccount">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_unblockAccount">#</a>
+		<code><a href="source-class-WeeAuth.html#531-554" title="Go to source code">unblockAccount</a>( <span>string <var>$userID</var></span> )</code>
+
+		<div class="description short">
+			<p>Unblock a given account</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Unblock a given account</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userID</var></dt>
+					<dd>User account to be unblocked</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="updateUserDetails" id="_updateUserDetails">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_updateUserDetails">#</a>
+		<code><a href="source-class-WeeAuth.html#556-590" title="Go to source code">updateUserDetails</a>( <span>integer <var>$userID</var></span>, <span>string <var>$username</var> = <span class="php-keyword1">NULL</span></span>, <span>string <var>$firstname</var> = <span class="php-keyword1">NULL</span></span>, <span>string <var>$lastname</var> = <span class="php-keyword1">NULL</span></span>, <span>string <var>$email</var> = <span class="php-keyword1">NULL</span></span>, <span>string <var>$reminder</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>User update</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>User update</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userID</var></dt>
+					<dd>User ID</dd>
+					<dt><var>$username</var></dt>
+					<dd>Username</dd>
+					<dt><var>$firstname</var></dt>
+					<dd>Optional first name (if null not updated)</dd>
+					<dt><var>$lastname</var></dt>
+					<dd>Optional last name (if null not updated)</dd>
+					<dt><var>$email</var></dt>
+					<dd>Optional email (if null not updated)</dd>
+					<dt><var>$reminder</var></dt>
+					<dd>Optional password reminder (if null not updated)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="deleteUser" id="_deleteUser">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_deleteUser">#</a>
+		<code><a href="source-class-WeeAuth.html#592-608" title="Go to source code">deleteUser</a>( <span>integer <var>$userID</var></span> )</code>
+
+		<div class="description short">
+			<p>User delete</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>User delete</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userID</var></dt>
+					<dd>User ID</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUserPasswordReminder" id="_getUserPasswordReminder">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUserPasswordReminder">#</a>
+		<code><a href="source-class-WeeAuth.html#610-629" title="Go to source code">getUserPasswordReminder</a>( <span>integer <var>$userID</var></span> )</code>
+
+		<div class="description short">
+			<p>Returns a password reminder</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns a password reminder</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userID</var></dt>
+					<dd>User ID</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCurrentUser" id="_getCurrentUser">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCurrentUser">#</a>
+		<code><a href="source-class-WeeAuth.html#631-650" title="Go to source code">getCurrentUser</a>( )</code>
+
+		<div class="description short">
+			<p>Returns current user (if logged in)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns current user (if logged in)</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createGroup" id="_createGroup">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createGroup">#</a>
+		<code><a href="source-class-WeeAuth.html#652-696" title="Go to source code">createGroup</a>( <span>string <var>$groupName</var></span>, <span>string <var>$groupDescription</var> = <span class="php-keyword1">NULL</span></span>, <span>string <var>$groupEmail</var> = <span class="php-keyword1">NULL</span></span>, <span>boolean <var>$blocked</var> = <span class="php-keyword1">FALSE</span></span>, <span>string <var>$otherDetails</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Group insertion</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Group insertion</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$groupName</var></dt>
+					<dd>Group name</dd>
+					<dt><var>$groupDescription</var></dt>
+					<dd>Group description</dd>
+					<dt><var>$groupEmail</var></dt>
+					<dd>Group email</dd>
+					<dt><var>$blocked</var></dt>
+					<dd>Activated / deactivated</dd>
+					<dt><var>$otherDetails</var></dt>
+					<dd>Misc. information</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="blockGroup" id="_blockGroup">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_blockGroup">#</a>
+		<code><a href="source-class-WeeAuth.html#698-716" title="Go to source code">blockGroup</a>( <span>string <var>$groupID</var></span> )</code>
+
+		<div class="description short">
+			<p>Block a group (temp deactivation)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Block a group (temp deactivation)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$groupID</var></dt>
+					<dd>Group id to block</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="unblockGroup" id="_unblockGroup">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_unblockGroup">#</a>
+		<code><a href="source-class-WeeAuth.html#718-736" title="Go to source code">unblockGroup</a>( <span>string <var>$groupID</var></span> )</code>
+
+		<div class="description short">
+			<p>Unblock a given group</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Unblock a given group</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$groupID</var></dt>
+					<dd>Group id to unblock</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="updateGroup" id="_updateGroup">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_updateGroup">#</a>
+		<code><a href="source-class-WeeAuth.html#738-770" title="Go to source code">updateGroup</a>( <span>integer <var>$groupID</var></span>, <span>string <var>$groupName</var> = <span class="php-keyword1">NULL</span></span>, <span>string <var>$groupDescription</var> = <span class="php-keyword1">NULL</span></span>, <span>string <var>$groupEmail</var> = <span class="php-keyword1">NULL</span></span>, <span>string <var>$otherDetails</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Group update</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Group update</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$groupID</var></dt>
+					<dd>Group ID</dd>
+					<dt><var>$groupName</var></dt>
+					<dd>Group name</dd>
+					<dt><var>$groupDescription</var></dt>
+					<dd>Group description</dd>
+					<dt><var>$groupEmail</var></dt>
+					<dd>Group email</dd>
+					<dt><var>$otherDetails</var></dt>
+					<dd>Misc. information</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="deleteGroup" id="_deleteGroup">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_deleteGroup">#</a>
+		<code><a href="source-class-WeeAuth.html#772-788" title="Go to source code">deleteGroup</a>( <span>integer <var>$groupID</var></span> )</code>
+
+		<div class="description short">
+			<p>Group delete</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Group delete</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$groupID</var></dt>
+					<dd>group ID</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createPermission" id="_createPermission">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createPermission">#</a>
+		<code><a href="source-class-WeeAuth.html#790-819" title="Go to source code">createPermission</a>( <span>string <var>$permName</var></span>, <span>string <var>$permDescription</var></span> )</code>
+
+		<div class="description short">
+			<p>Permission insertion</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Permission insertion</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$permName</var></dt>
+					<dd>Permission name</dd>
+					<dt><var>$permDescription</var></dt>
+					<dd>Permission description</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="updatePermission" id="_updatePermission">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_updatePermission">#</a>
+		<code><a href="source-class-WeeAuth.html#821-843" title="Go to source code">updatePermission</a>( <span>string <var>$permID</var></span>, <span>string <var>$permName</var> = <span class="php-keyword1">NULL</span></span>, <span>string <var>$permDescription</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Update permission</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Update permission</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$permID</var></dt>
+					<dd>Permission ID</dd>
+					<dt><var>$permName</var></dt>
+					<dd>Permission name</dd>
+					<dt><var>$permDescription</var></dt>
+					<dd>Permission description</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="deletePermission" id="_deletePermission">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_deletePermission">#</a>
+		<code><a href="source-class-WeeAuth.html#845-861" title="Go to source code">deletePermission</a>( <span>integer <var>$permID</var></span> )</code>
+
+		<div class="description short">
+			<p>Permission delete</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Permission delete</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$permID</var></dt>
+					<dd>Permission ID</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="userAttachPermission" id="_userAttachPermission">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_userAttachPermission">#</a>
+		<code><a href="source-class-WeeAuth.html#863-883" title="Go to source code">userAttachPermission</a>( <span>integer <var>$userID</var></span>, <span>integer <var>$permID</var></span> )</code>
+
+		<div class="description short">
+			<p>Attach permission to a user</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Attach permission to a user</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userID</var></dt>
+					<dd>User ID</dd>
+					<dt><var>$permID</var></dt>
+					<dd>Permission ID</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="userRemovePermission" id="_userRemovePermission">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_userRemovePermission">#</a>
+		<code><a href="source-class-WeeAuth.html#885-905" title="Go to source code">userRemovePermission</a>( <span>integer <var>$userID</var></span>, <span>integer <var>$permID</var></span> )</code>
+
+		<div class="description short">
+			<p>Remove permission from a user</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Remove permission from a user</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userID</var></dt>
+					<dd>User ID</dd>
+					<dt><var>$permID</var></dt>
+					<dd>Permission ID</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="groupAttachPermission" id="_groupAttachPermission">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_groupAttachPermission">#</a>
+		<code><a href="source-class-WeeAuth.html#907-927" title="Go to source code">groupAttachPermission</a>( <span>integer <var>$groupID</var></span>, <span>integer <var>$permID</var></span> )</code>
+
+		<div class="description short">
+			<p>Attach permission to a group</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Attach permission to a group</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$groupID</var></dt>
+					<dd>Group ID</dd>
+					<dt><var>$permID</var></dt>
+					<dd>Permission ID</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="groupRemovePermission" id="_groupRemovePermission">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_groupRemovePermission">#</a>
+		<code><a href="source-class-WeeAuth.html#929-949" title="Go to source code">groupRemovePermission</a>( <span>integer <var>$groupID</var></span>, <span>integer <var>$permID</var></span> )</code>
+
+		<div class="description short">
+			<p>Remove permission from a group</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Remove permission from a group</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$groupID</var></dt>
+					<dd>Group ID</dd>
+					<dt><var>$permID</var></dt>
+					<dd>Permission ID</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="attachUserToGroup" id="_attachUserToGroup">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_attachUserToGroup">#</a>
+		<code><a href="source-class-WeeAuth.html#951-972" title="Go to source code">attachUserToGroup</a>( <span>integer <var>$userID</var></span>, <span>integer <var>$groupID</var></span> )</code>
+
+		<div class="description short">
+			<p>Attach a user to a group</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Attach a user to a group</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userID</var></dt>
+					<dd>User ID</dd>
+					<dt><var>$groupID</var></dt>
+					<dd>Group ID</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="removeUserFromGroup" id="_removeUserFromGroup">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_removeUserFromGroup">#</a>
+		<code><a href="source-class-WeeAuth.html#974-994" title="Go to source code">removeUserFromGroup</a>( <span>integer <var>$userID</var></span>, <span>integer <var>$groupID</var></span> )</code>
+
+		<div class="description short">
+			<p>Remove a user to a group</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Remove a user to a group</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userID</var></dt>
+					<dd>User ID</dd>
+					<dt><var>$groupID</var></dt>
+					<dd>Group ID</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUsersFromGroup" id="_getUsersFromGroup">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUsersFromGroup">#</a>
+		<code><a href="source-class-WeeAuth.html#996-1023" title="Go to source code">getUsersFromGroup</a>( <span>integer <var>$groupID</var></span> )</code>
+
+		<div class="description short">
+			<p>Get group related users</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get group related users</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$groupID</var></dt>
+					<dd>Group ID</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getGroupPermissions" id="_getGroupPermissions">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getGroupPermissions">#</a>
+		<code><a href="source-class-WeeAuth.html#1025-1051" title="Go to source code">getGroupPermissions</a>( <span>integer <var>$groupID</var></span> )</code>
+
+		<div class="description short">
+			<p>Get group related permissions</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get group related permissions</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$groupID</var></dt>
+					<dd>Group ID</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUserPermissions" id="_getUserPermissions">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUserPermissions">#</a>
+		<code><a href="source-class-WeeAuth.html#1053-1078" title="Go to source code">getUserPermissions</a>( <span>integer <var>$userID</var></span> )</code>
+
+		<div class="description short">
+			<p>Get user related permissions</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get user related permissions</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userID</var></dt>
+					<dd>User ID</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUserGroups" id="_getUserGroups">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUserGroups">#</a>
+		<code><a href="source-class-WeeAuth.html#1080-1105" title="Go to source code">getUserGroups</a>( <span>integer <var>$userID</var></span> )</code>
+
+		<div class="description short">
+			<p>Get user groups</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get user groups</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userID</var></dt>
+					<dd>User ID</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUserGroupPermissions" id="_getUserGroupPermissions">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUserGroupPermissions">#</a>
+		<code><a href="source-class-WeeAuth.html#1107-1130" title="Go to source code">getUserGroupPermissions</a>( <span>integer <var>$userID</var></span> )</code>
+
+		<div class="description short">
+			<p>Get user group related permissions</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get user group related permissions</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userID</var></dt>
+					<dd>User ID</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUserAllPermissions" id="_getUserAllPermissions">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUserAllPermissions">#</a>
+		<code><a href="source-class-WeeAuth.html#1132-1146" title="Go to source code">getUserAllPermissions</a>( <span>integer <var>$userID</var></span> )</code>
+
+		<div class="description short">
+			<p>Get user all permissions</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get user all permissions</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userID</var></dt>
+					<dd>User ID</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAllUsers" id="_getAllUsers">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAllUsers">#</a>
+		<code><a href="source-class-WeeAuth.html#1148-1165" title="Go to source code">getAllUsers</a>( )</code>
+
+		<div class="description short">
+			<p>Get all registered users</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get all registered users</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAllGroups" id="_getAllGroups">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAllGroups">#</a>
+		<code><a href="source-class-WeeAuth.html#1167-1183" title="Go to source code">getAllGroups</a>( )</code>
+
+		<div class="description short">
+			<p>Get all groups</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get all groups</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAllPermissions" id="_getAllPermissions">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAllPermissions">#</a>
+		<code><a href="source-class-WeeAuth.html#1185-1201" title="Go to source code">getAllPermissions</a>( )</code>
+
+		<div class="description short">
+			<p>Get all permissions</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get all permissions</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCurrentUserID" id="_getCurrentUserID">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCurrentUserID">#</a>
+		<code><a href="source-class-WeeAuth.html#1203-1214" title="Go to source code">getCurrentUserID</a>( )</code>
+
+		<div class="description short">
+			<p>Get current user id from session</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get current user id from session</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCurrentUserGroups" id="_getCurrentUserGroups">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCurrentUserGroups">#</a>
+		<code><a href="source-class-WeeAuth.html#1216-1226" title="Go to source code">getCurrentUserGroups</a>( )</code>
+
+		<div class="description short">
+			<p>Get current user group</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get current user group</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCurrentUserPermissions" id="_getCurrentUserPermissions">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCurrentUserPermissions">#</a>
+		<code><a href="source-class-WeeAuth.html#1228-1238" title="Go to source code">getCurrentUserPermissions</a>( )</code>
+
+		<div class="description short">
+			<p>Get current user permissions</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get current user permissions</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="currentUserCheckGroup" id="_currentUserCheckGroup">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_currentUserCheckGroup">#</a>
+		<code><a href="source-class-WeeAuth.html#1240-1269" title="Go to source code">currentUserCheckGroup</a>( <span>string <var>$group</var></span> )</code>
+
+		<div class="description short">
+			<p>Check if current user is part of a given group</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Check if current user is part of a given group</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$group</var></dt>
+					<dd>Group id or name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="currentUserCheckPermission" id="_currentUserCheckPermission">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_currentUserCheckPermission">#</a>
+		<code><a href="source-class-WeeAuth.html#1271-1299" title="Go to source code">currentUserCheckPermission</a>( <span>string <var>$perm</var></span> )</code>
+
+		<div class="description short">
+			<p>Check if current has a certain permission</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Check if current has a certain permission</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$perm</var></dt>
+					<dd>Permission id or name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addUpdatePaswordToken" id="_addUpdatePaswordToken">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addUpdatePaswordToken">#</a>
+		<code><a href="source-class-WeeAuth.html#1301-1326" title="Go to source code">addUpdatePaswordToken</a>( <span>string <var>$userID</var></span> )</code>
+
+		<div class="description short">
+			<p>Add password token to the user (to be verified by email)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add password token to the user (to be verified by email)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userID</var></dt>
+					<dd>User id</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sendUpdatePasswordToken" id="_sendUpdatePasswordToken">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sendUpdatePasswordToken">#</a>
+		<code><a href="source-class-WeeAuth.html#1328-1349" title="Go to source code">sendUpdatePasswordToken</a>( <span>string <var>$userID</var></span> )</code>
+
+		<div class="description short">
+			<p>Send update password token</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Send update password token</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userID</var></dt>
+					<dd>User id</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="editPassword" id="_editPassword">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_editPassword">#</a>
+		<code><a href="source-class-WeeAuth.html#1351-1415" title="Go to source code">editPassword</a>( <span>string <var>$userID</var></span>, <span> <var>$newpassword</var></span>, <span> <var>$oldpassword</var></span>, <span> <var>$tokenInput</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Send update password token</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Send update password token</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userID</var></dt>
+					<dd>User id</dd>
+					<dt><var>$newpassword</var></dt>
+					<dd></dd>
+					<dt><var>$oldpassword</var></dt>
+					<dd></dd>
+					<dt><var>$tokenInput</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isLoggedin" id="_isLoggedin">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isLoggedin">#</a>
+		<code><a href="source-class-WeeAuth.html#1417-1427" title="Go to source code">isLoggedin</a>( )</code>
+
+		<div class="description short">
+			<p>Check if current user is loggedin</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Check if current user is loggedin</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setTempMsg" id="_setTempMsg">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setTempMsg">#</a>
+		<code><a href="source-class-WeeAuth.html#1429-1438" title="Go to source code">setTempMsg</a>( <span>string <var>$msg</var></span> )</code>
+
+		<div class="description short">
+			<p>Store temporary msg</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Store temporary msg</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$msg</var></dt>
+					<dd>Temporary msg</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getTempMsg" id="_getTempMsg">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getTempMsg">#</a>
+		<code><a href="source-class-WeeAuth.html#1440-1448" title="Go to source code">getTempMsg</a>( )</code>
+
+		<div class="description short">
+			<p>Get temporary msg</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get temporary msg</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="searchUsers" id="_searchUsers">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_searchUsers">#</a>
+		<code><a href="source-class-WeeAuth.html#1458-1484" title="Go to source code">searchUsers</a>( <span>string <var>$param</var></span>, <span>strin <var>$value</var></span>, <span>boolean <var>$exactMatch</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			<p>Search for users according to a given param</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Search for users according to a given param</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$param</var></dt>
+					<dd>Search parameter</dd>
+					<dt><var>$value</var></dt>
+					<dd>Parameter value</dd>
+					<dt><var>$exactMatch</var></dt>
+					<dd>Look for an exact match</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setInternalErrorHandler" id="_setInternalErrorHandler">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setInternalErrorHandler">#</a>
+		<code><a href="source-class-WeeAuth.html#1587-1594" title="Go to source code">setInternalErrorHandler</a>( <span>boolean <var>$internalErrorHandler</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter error handling mode (either true or false)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter error handling mode (either true or false)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$internalErrorHandler</var></dt>
+					<dd>Internal Error Handler</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getInternalErrorHandler" id="_getInternalErrorHandler">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getInternalErrorHandler">#</a>
+		<code><a href="source-class-WeeAuth.html#1596-1602" title="Go to source code">getInternalErrorHandler</a>( )</code>
+
+		<div class="description short">
+			<p>Getter error handling mode (either true or false)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Getter error handling mode (either true or false)</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setUsersTable" id="_setUsersTable">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setUsersTable">#</a>
+		<code><a href="source-class-WeeAuth.html#1604-1613" title="Go to source code">setUsersTable</a>( <span>string <var>$usersTable</var></span> )</code>
+
+		<div class="description short">
+			<p>Set database users table name</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set database users table name</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$usersTable</var></dt>
+					<dd>Name of the database users table</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setGroupsTable" id="_setGroupsTable">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setGroupsTable">#</a>
+		<code><a href="source-class-WeeAuth.html#1615-1624" title="Go to source code">setGroupsTable</a>( <span>string <var>$groupsTable</var></span> )</code>
+
+		<div class="description short">
+			<p>Set database groups table name</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set database groups table name</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$groupsTable</var></dt>
+					<dd>Name of the database groups table</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setPermissionsTable" id="_setPermissionsTable">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setPermissionsTable">#</a>
+		<code><a href="source-class-WeeAuth.html#1626-1635" title="Go to source code">setPermissionsTable</a>( <span>string <var>$permsTable</var></span> )</code>
+
+		<div class="description short">
+			<p>Set database permissions table name</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set database permissions table name</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$permsTable</var></dt>
+					<dd>Name of the database permissions table</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setActivationEmail" id="_setActivationEmail">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setActivationEmail">#</a>
+		<code><a href="source-class-WeeAuth.html#1637-1649" title="Go to source code">setActivationEmail</a>( <span>array <var>$activationMail</var></span> )</code>
+
+		<div class="description short">
+			<p>Define the content of the account activation mail</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Define the content of the account activation mail</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$activationMail</var></dt>
+					<dd><p>See details below
+                               0 - Subject
+                               1 - Content before activation link
+                               2 - Content after activation link</p></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setPasswordEmail" id="_setPasswordEmail">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setPasswordEmail">#</a>
+		<code><a href="source-class-WeeAuth.html#1651-1663" title="Go to source code">setPasswordEmail</a>( <span>array <var>$passwordMail</var></span> )</code>
+
+		<div class="description short">
+			<p>Define the content of the password mail</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Define the content of the password mail</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$passwordMail</var></dt>
+					<dd><p>See details below
+                             0 - Subject
+                             1 - Content before activation link
+                             2 - Content after activation link</p></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setUpdatePasswordEmail" id="_setUpdatePasswordEmail">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setUpdatePasswordEmail">#</a>
+		<code><a href="source-class-WeeAuth.html#1665-1677" title="Go to source code">setUpdatePasswordEmail</a>( <span>array <var>$passwordMail</var></span> )</code>
+
+		<div class="description short">
+			<p>Define the content of the update password mail</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Define the content of the update password mail</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$passwordMail</var></dt>
+					<dd><p>See details below
+                             0 - Subject
+                             1 - Content before activation link
+                             2 - Content after activation link</p></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setEmailsFrom" id="_setEmailsFrom">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setEmailsFrom">#</a>
+		<code><a href="source-class-WeeAuth.html#1679-1688" title="Go to source code">setEmailsFrom</a>( <span>string <var>$senderAddress</var></span> )</code>
+
+		<div class="description short">
+			<p>Sender address for auth system mails</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Sender address for auth system mails</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$senderAddress</var></dt>
+					<dd>Sender address</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+	<table class="summary constants" id="constants">
+	<caption>Constants summary</caption>
+	<tr data-order="TEMP_SESS_MSG" id="TEMP_SESS_MSG">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name">
+			<code>
+				<a href="source-class-WeeAuth.html#92-96" title="Go to source code"><b>TEMP_SESS_MSG</b></a>
+			</code>
+
+			<div class="description short">
+				<p>Temporary session msg string used in sessions</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Temporary session msg string used in sessions</p>
+
+					<h4>Const</h4>
+					<div class="list">
+							TEMP_SESS_MSG<br>
+					</div>
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#TEMP_SESS_MSG" class="anchor">#</a>
+				<code><span class="php-quote">&quot;flashmsg&quot;</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="LOGGED_IN" id="LOGGED_IN">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name">
+			<code>
+				<a href="source-class-WeeAuth.html#97-101" title="Go to source code"><b>LOGGED_IN</b></a>
+			</code>
+
+			<div class="description short">
+				<p>Logged in string used in sessions</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Logged in string used in sessions</p>
+
+					<h4>Const</h4>
+					<div class="list">
+							LOGGED_IN<br>
+					</div>
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#LOGGED_IN" class="anchor">#</a>
+				<code><span class="php-quote">&quot;loggedin&quot;</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="USER_ID" id="USER_ID">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name">
+			<code>
+				<a href="source-class-WeeAuth.html#102-106" title="Go to source code"><b>USER_ID</b></a>
+			</code>
+
+			<div class="description short">
+				<p>User id string used in sessions</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>User id string used in sessions</p>
+
+					<h4>Const</h4>
+					<div class="list">
+							USER_ID<br>
+					</div>
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#USER_ID" class="anchor">#</a>
+				<code><span class="php-quote">&quot;userid&quot;</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="LIFETIME" id="LIFETIME">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name">
+			<code>
+				<a href="source-class-WeeAuth.html#107-111" title="Go to source code"><b>LIFETIME</b></a>
+			</code>
+
+			<div class="description short">
+				<p>Lifetime string used in sessions</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Lifetime string used in sessions</p>
+
+					<h4>Const</h4>
+					<div class="list">
+							LIFETIME<br>
+					</div>
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#LIFETIME" class="anchor">#</a>
+				<code><span class="php-quote">&quot;lifetime&quot;</span></code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_errors" id="$_errors">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeAuth.html#25-29" title="Go to source code"><var>$_errors</var></a>
+
+			<div class="description short">
+				<p>Array of error codes</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Array of error codes</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_errors" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_internalErrorHandler" id="$_internalErrorHandler">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeAuth.html#30-34" title="Go to source code"><var>$_internalErrorHandler</var></a>
+
+			<div class="description short">
+				<p>Internal error handler</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Internal error handler</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_internalErrorHandler" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_dbUsersTable" id="$_dbUsersTable">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeAuth.html#35-39" title="Go to source code"><var>$_dbUsersTable</var></a>
+
+			<div class="description short">
+				<p>Database users table</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Database users table</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_dbUsersTable" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_dbGroupsTable" id="$_dbGroupsTable">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeAuth.html#40-44" title="Go to source code"><var>$_dbGroupsTable</var></a>
+
+			<div class="description short">
+				<p>Database groups table</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Database groups table</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_dbGroupsTable" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_dbPermissionsTable" id="$_dbPermissionsTable">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeAuth.html#45-49" title="Go to source code"><var>$_dbPermissionsTable</var></a>
+
+			<div class="description short">
+				<p>Database permissions table</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Database permissions table</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_dbPermissionsTable" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_emailsFrom" id="$_emailsFrom">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeAuth.html#50-54" title="Go to source code"><var>$_emailsFrom</var></a>
+
+			<div class="description short">
+				<p>Sender address for auth system mails</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Sender address for auth system mails</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_emailsFrom" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="wmail" id="$wmail">
+		<td class="attributes"><code>
+			protected  
+			object
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeAuth.html#55-59" title="Go to source code"><var>$wmail</var></a>
+
+			<div class="description short">
+				<p>WeeMail instance shortcut</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>WeeMail instance shortcut</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$wmail" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="filter" id="$filter">
+		<td class="attributes"><code>
+			protected  
+			object
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeAuth.html#60-64" title="Go to source code"><var>$filter</var></a>
+
+			<div class="description short">
+				<p>WeeFilter instance shortcut</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>WeeFilter instance shortcut</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$filter" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_activationEmail" id="$_activationEmail">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeAuth.html#65-73" title="Go to source code"><var>$_activationEmail</var></a>
+
+			<div class="description short">
+				<p>Activation email (send to validate an account for instance) :
+0 - Subject
+1 - Content before activation link
+2 - Content after activation link</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Activation email (send to validate an account for instance) :
+0 - Subject
+1 - Content before activation link
+2 - Content after activation link</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_activationEmail" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_passwordEmail" id="$_passwordEmail">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeAuth.html#74-82" title="Go to source code"><var>$_passwordEmail</var></a>
+
+			<div class="description short">
+				<p>Password email (when this one is system generated) :
+0 - Subject
+1 - Content before activation link
+2 - Content after activation link</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Password email (when this one is system generated) :
+0 - Subject
+1 - Content before activation link
+2 - Content after activation link</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_passwordEmail" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_updatePasswordEmail" id="$_updatePasswordEmail">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeAuth.html#83-91" title="Go to source code"><var>$_updatePasswordEmail</var></a>
+
+			<div class="description short">
+				<p>Update password email (when this one is system generated) :
+0 - Subject
+1 - Content before token link
+2 - Content after token link</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Update password email (when this one is system generated) :
+0 - Subject
+1 - Content before token link
+2 - Content after token link</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_updatePasswordEmail" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		WeePHP API API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

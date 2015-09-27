@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class WeeGal | WeePHP API</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Packages</h3>
+			<ul>
+				<li>
+					<a href="package-None.html">
+						None					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.html">
+						WeePHP<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="package-WeePHP.Core.html">
+						Core					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.UserLibraries.html">
+						UserLibraries					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WeeAuth.html">WeeAuth</a></li>
+				<li><a href="class-WeeConfig.html">WeeConfig</a></li>
+				<li><a href="class-WeeCookie.html">WeeCookie</a></li>
+				<li><a href="class-WeeDBGenericAccess.html">WeeDBGenericAccess</a></li>
+				<li><a href="class-WeeFile.html">WeeFile</a></li>
+				<li><a href="class-WeeFilter.html">WeeFilter</a></li>
+				<li class="active"><a href="class-WeeGal.html">WeeGal</a></li>
+				<li><a href="class-WeeImg.html">WeeImg</a></li>
+				<li><a href="class-WeeMail.html">WeeMail</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+<span>Package</span>			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class WeeGal</h1>
+
+
+	<div class="description">
+	<p>WeeGal</p>
+
+<p>Gallery helper class for weephp framework</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-WeePHP.html">WeePHP</a>\<a href="package-WeePHP.UserLibraries.html">UserLibraries</a><br>
+
+				<b>Author:</b>
+				Hugues Polaert <a href="&#109;&#97;&#x69;&#108;&#x74;&#111;&#x3a;&#104;&#x75;&#103;u&#x65;&#115;&#x2e;&#112;&#x6f;&#108;&#x61;&#101;&#x72;&#116;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;m">&#104;&#x75;&#103;u&#x65;&#115;&#x2e;&#112;&#x6f;&#108;&#x61;&#101;&#x72;&#116;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;m</a><br>
+				<b>Version:</b>
+				0.1<br>
+			<b>Located at</b> <a href="source-class-WeeGal.html#16-423" title="Go to source code">WeeGal.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-WeeGal.html">WeeGal</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-WeeGal.html#56-69" title="Go to source code">__construct</a>( <span>boolean <var>$internalErrorHandler</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Class constructor
+Optional argument to use the class externally (internal error handler)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Class constructor
+Optional argument to use the class externally (internal error handler)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$internalErrorHandler</var></dt>
+					<dd>True when used outside the framework</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-WeeGal.html">WeeGal</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="newAlbum" id="_newAlbum">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_newAlbum">#</a>
+		<code><a href="source-class-WeeGal.html#71-109" title="Go to source code">newAlbum</a>( <span>string <var>$name</var></span>, <span>string <var>$description</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Create a new album</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Create a new album</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd>Name of the album</dd>
+					<dt><var>$description</var></dt>
+					<dd>Description of the album</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fetchAlbums" id="_fetchAlbums">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fetchAlbums">#</a>
+		<code><a href="source-class-WeeGal.html#111-120" title="Go to source code">fetchAlbums</a>( )</code>
+
+		<div class="description short">
+			<p>Retrieve all albums</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Retrieve all albums</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addPicture" id="_addPicture">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addPicture">#</a>
+		<code><a href="source-class-WeeGal.html#122-192" title="Go to source code">addPicture</a>( <span>string <var>$picture</var></span>, <span>integer <var>$album</var></span>, <span>string <var>$description</var></span>, <span>array <var>$params</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Add a picture to an album</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add a picture to an album</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$picture</var></dt>
+					<dd>Picture name ($_Files[$name]) or location (/absolute server path)</dd>
+					<dt><var>$album</var></dt>
+					<dd>Target album ID</dd>
+					<dt><var>$description</var></dt>
+					<dd>Picture description</dd>
+					<dt><var>$params</var></dt>
+					<dd>Optional parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="movePictureToAlbum" id="_movePictureToAlbum">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_movePictureToAlbum">#</a>
+		<code><a href="source-class-WeeGal.html#194-229" title="Go to source code">movePictureToAlbum</a>( <span>integer <var>$pictureID</var></span>, <span>integer <var>$albumID</var></span> )</code>
+
+		<div class="description short">
+			<p>Move an existing picture from one album to another</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Move an existing picture from one album to another</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$pictureID</var></dt>
+					<dd>Picture unique ID</dd>
+					<dt><var>$albumID</var></dt>
+					<dd>Target album ID</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="updateAlbum" id="_updateAlbum">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_updateAlbum">#</a>
+		<code><a href="source-class-WeeGal.html#231-254" title="Go to source code">updateAlbum</a>( <span>string <var>$name</var></span>, <span>string <var>$newName</var></span>, <span>string <var>$description</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Update a new album</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Update a new album</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd>Name of the album</dd>
+					<dt><var>$newName</var></dt>
+					<dd>New name of the album</dd>
+					<dt><var>$description</var></dt>
+					<dd>Description of the album</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="deleteAlbum" id="_deleteAlbum">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_deleteAlbum">#</a>
+		<code><a href="source-class-WeeGal.html#256-271" title="Go to source code">deleteAlbum</a>( <span>string <var>$albumID</var></span> )</code>
+
+		<div class="description short">
+			<p>Delete an album</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Delete an album</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$albumID</var></dt>
+					<dd>ID of the album</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="updatePic" id="_updatePic">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_updatePic">#</a>
+		<code><a href="source-class-WeeGal.html#273-291" title="Go to source code">updatePic</a>( <span>integer <var>$pictureID</var></span>, <span>integer <var>$description</var></span> )</code>
+
+		<div class="description short">
+			<p>Update the description of a given picture</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Update the description of a given picture</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$pictureID</var></dt>
+					<dd>Picture unique ID</dd>
+					<dt><var>$description</var></dt>
+					<dd>New description</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="deletePic" id="_deletePic">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_deletePic">#</a>
+		<code><a href="source-class-WeeGal.html#293-311" title="Go to source code">deletePic</a>( <span>integer <var>$pictureID</var></span> )</code>
+
+		<div class="description short">
+			<p>Delete a picture</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Delete a picture</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$pictureID</var></dt>
+					<dd>Picture unique ID</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAlbumContent" id="_getAlbumContent">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAlbumContent">#</a>
+		<code><a href="source-class-WeeGal.html#313-330" title="Go to source code">getAlbumContent</a>( <span>integer <var>$albumID</var></span> )</code>
+
+		<div class="description short">
+			<p>Get album total number of pictures</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get album total number of pictures</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$albumID</var></dt>
+					<dd>Album unique ID</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAlbumCount" id="_getAlbumCount">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAlbumCount">#</a>
+		<code><a href="source-class-WeeGal.html#332-349" title="Go to source code">getAlbumCount</a>( <span>string <var>$albumID</var></span> )</code>
+
+		<div class="description short">
+			<p>Get album content</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get album content</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$albumID</var></dt>
+					<dd>Album unique ID</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setInternalErrorHandler" id="_setInternalErrorHandler">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setInternalErrorHandler">#</a>
+		<code><a href="source-class-WeeGal.html#371-378" title="Go to source code">setInternalErrorHandler</a>( <span>boolean <var>$internalErrorHandler</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter error handling mode (either true or false)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter error handling mode (either true or false)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$internalErrorHandler</var></dt>
+					<dd>Internal Error Handler</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getInternalErrorHandler" id="_getInternalErrorHandler">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getInternalErrorHandler">#</a>
+		<code><a href="source-class-WeeGal.html#380-386" title="Go to source code">getInternalErrorHandler</a>( )</code>
+
+		<div class="description short">
+			<p>Getter error handling mode (either true or false)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Getter error handling mode (either true or false)</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setGalleryTable" id="_setGalleryTable">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setGalleryTable">#</a>
+		<code><a href="source-class-WeeGal.html#388-397" title="Go to source code">setGalleryTable</a>( <span>string <var>$galleryTable</var></span> )</code>
+
+		<div class="description short">
+			<p>Set database gallery table name</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set database gallery table name</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$galleryTable</var></dt>
+					<dd>Name of the database gallery table</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setGalleryPicsTable" id="_setGalleryPicsTable">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setGalleryPicsTable">#</a>
+		<code><a href="source-class-WeeGal.html#399-408" title="Go to source code">setGalleryPicsTable</a>( <span>string <var>$galleryPicsTable</var></span> )</code>
+
+		<div class="description short">
+			<p>Set database gallery pics table name</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set database gallery pics table name</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$galleryPicsTable</var></dt>
+					<dd>Name of the database gallery pics table</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setGalleryFolder" id="_setGalleryFolder">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setGalleryFolder">#</a>
+		<code><a href="source-class-WeeGal.html#410-422" title="Go to source code">setGalleryFolder</a>( <span>string <var>$galleryFolder</var></span> )</code>
+
+		<div class="description short">
+			<p>Set gallery folder location</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set gallery folder location</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$galleryFolder</var></dt>
+					<dd>Location of the gallery folder</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_internalErrorHandler" id="$_internalErrorHandler">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeGal.html#25-29" title="Go to source code"><var>$_internalErrorHandler</var></a>
+
+			<div class="description short">
+				<p>Internal error handler</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Internal error handler</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_internalErrorHandler" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="WeeImg" id="$WeeImg">
+		<td class="attributes"><code>
+			protected  
+			object
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeGal.html#30-34" title="Go to source code"><var>$WeeImg</var></a>
+
+			<div class="description short">
+				<p>WeeImg class</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>WeeImg class</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$WeeImg" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="WeeFile" id="$WeeFile">
+		<td class="attributes"><code>
+			protected  
+			object
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeGal.html#35-39" title="Go to source code"><var>$WeeFile</var></a>
+
+			<div class="description short">
+				<p>WeeFile class</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>WeeFile class</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$WeeFile" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_dbGalleryTable" id="$_dbGalleryTable">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeGal.html#40-44" title="Go to source code"><var>$_dbGalleryTable</var></a>
+
+			<div class="description short">
+				<p>Database gallery table</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Database gallery table</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_dbGalleryTable" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_dbGalleryPicsTable" id="$_dbGalleryPicsTable">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeGal.html#45-49" title="Go to source code"><var>$_dbGalleryPicsTable</var></a>
+
+			<div class="description short">
+				<p>Database gallery pics table</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Database gallery pics table</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_dbGalleryPicsTable" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_galleryFolder" id="$_galleryFolder">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeGal.html#50-54" title="Go to source code"><var>$_galleryFolder</var></a>
+
+			<div class="description short">
+				<p>Gallery folder location</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Gallery folder location</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_galleryFolder" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		WeePHP API API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class WeeSession | WeePHP API</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Packages</h3>
+			<ul>
+				<li>
+					<a href="package-None.html">
+						None					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.html">
+						WeePHP<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="package-WeePHP.Core.html">
+						Core					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.UserLibraries.html">
+						UserLibraries					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WeeController.html">WeeController</a></li>
+				<li><a href="class-WeeDispatcher.html">WeeDispatcher</a></li>
+				<li><a href="class-WeeHooks.html">WeeHooks</a></li>
+				<li><a href="class-WeeModel.html">WeeModel</a></li>
+				<li><a href="class-WeeReporting.html">WeeReporting</a></li>
+				<li class="active"><a href="class-WeeSession.html">WeeSession</a></li>
+				<li><a href="class-WeeTemplate.html">WeeTemplate</a></li>
+				<li><a href="class-WeeTranslator.html">WeeTranslator</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+<span>Package</span>			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class WeeSession</h1>
+
+
+	<div class="description">
+	<p>WeeSession</p>
+
+<p>Utility class to override default session handler with Redbean ORM
+Warning : this class cannot work without RedBean</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-WeePHP.html">WeePHP</a>\<a href="package-WeePHP.Core.html">Core</a><br>
+
+				<b>Author:</b>
+				Hugues Polaert <a href="&#109;&#97;&#x69;&#108;&#x74;&#111;&#x3a;&#104;&#x75;&#103;u&#x65;&#115;&#x2e;&#112;&#x6f;&#108;&#x61;&#101;&#x72;&#116;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;m">&#104;&#x75;&#103;u&#x65;&#115;&#x2e;&#112;&#x6f;&#108;&#x61;&#101;&#x72;&#116;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;m</a><br>
+				<b>Version:</b>
+				0.1<br>
+			<b>Located at</b> <a href="source-class-WeeSession.html#16-136" title="Go to source code">WeeSession.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-WeeSession.html#37-53" title="Go to source code">__construct</a>( <span>string <var>$dbSessionTable</var></span> )</code>
+
+		<div class="description short">
+			<p>Constructor</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Constructor</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$dbSessionTable</var></dt>
+					<dd>Input Session table</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_open" id="__open">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__open">#</a>
+		<code><a href="source-class-WeeSession.html#55-63" title="Go to source code">_open</a>( )</code>
+
+		<div class="description short">
+			<p>Check DB connexion</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Check DB connexion</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_close" id="__close">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__close">#</a>
+		<code><a href="source-class-WeeSession.html#65-72" title="Go to source code">_close</a>( )</code>
+
+		<div class="description short">
+			<p>Close the DB connexion</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Close the DB connexion</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_read" id="__read">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__read">#</a>
+		<code><a href="source-class-WeeSession.html#74-87" title="Go to source code">_read</a>( <span>integer <var>$id</var></span> )</code>
+
+		<div class="description short">
+			<p>Read a data from a $_SESSION["index"]</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Read a data from a $_SESSION["index"]</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd>Session ID (unique)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_write" id="__write">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__write">#</a>
+		<code><a href="source-class-WeeSession.html#89-104" title="Go to source code">_write</a>( <span>string <var>$id</var></span>, <span>string <var>$data</var></span> )</code>
+
+		<div class="description short">
+			<p>Write all the session data into the DB</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Write all the session data into the DB</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd>Session ID (unique)</dd>
+					<dt><var>$data</var></dt>
+					<dd>Session Data</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_destroy" id="__destroy">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__destroy">#</a>
+		<code><a href="source-class-WeeSession.html#106-119" title="Go to source code">_destroy</a>( <span>integer <var>$id</var></span> )</code>
+
+		<div class="description short">
+			<p>Destroy a session</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Destroy a session</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd>Session ID (unique)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_gc" id="__gc">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__gc">#</a>
+		<code><a href="source-class-WeeSession.html#121-135" title="Go to source code">_gc</a>( <span>integer <var>$expire</var></span> )</code>
+
+		<div class="description short">
+			<p>Destroy and clean a session according to the expire time defined</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Destroy and clean a session according to the expire time defined</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$expire</var></dt>
+					<dd>Expiration time</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="opened" id="$opened">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeSession.html#26-30" title="Go to source code"><var>$opened</var></a>
+
+			<div class="description short">
+				<p>Session opened to data writing (true/false)</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Session opened to data writing (true/false)</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$opened" class="anchor">#</a>
+				<code><span class="php-keyword1">TRUE</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_dbSessionTable" id="$_dbSessionTable">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeSession.html#31-35" title="Go to source code"><var>$_dbSessionTable</var></a>
+
+			<div class="description short">
+				<p>DB session table name</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>DB session table name</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_dbSessionTable" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		WeePHP API API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

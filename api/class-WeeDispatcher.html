@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class WeeDispatcher | WeePHP API</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Packages</h3>
+			<ul>
+				<li>
+					<a href="package-None.html">
+						None					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.html">
+						WeePHP<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="package-WeePHP.Core.html">
+						Core					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.UserLibraries.html">
+						UserLibraries					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WeeController.html">WeeController</a></li>
+				<li class="active"><a href="class-WeeDispatcher.html">WeeDispatcher</a></li>
+				<li><a href="class-WeeHooks.html">WeeHooks</a></li>
+				<li><a href="class-WeeModel.html">WeeModel</a></li>
+				<li><a href="class-WeeReporting.html">WeeReporting</a></li>
+				<li><a href="class-WeeSession.html">WeeSession</a></li>
+				<li><a href="class-WeeTemplate.html">WeeTemplate</a></li>
+				<li><a href="class-WeeTranslator.html">WeeTranslator</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+<span>Package</span>			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class WeeDispatcher</h1>
+
+
+	<div class="description">
+	<p>WeeDispatcher</p>
+
+<p>Core libray to handle incoming url request</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-WeePHP.html">WeePHP</a>\<a href="package-WeePHP.Core.html">Core</a><br>
+
+				<b>Author:</b>
+				Hugues Polaert <a href="&#109;&#97;&#x69;&#108;&#x74;&#111;&#x3a;&#104;&#x75;&#103;u&#x65;&#115;&#x2e;&#112;&#x6f;&#108;&#x61;&#101;&#x72;&#116;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;m">&#104;&#x75;&#103;u&#x65;&#115;&#x2e;&#112;&#x6f;&#108;&#x61;&#101;&#x72;&#116;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;m</a><br>
+				<b>Version:</b>
+				0.1<br>
+			<b>Located at</b> <a href="source-class-WeeDispatcher.html#16-604" title="Go to source code">WeeDispatcher.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-WeeDispatcher.html">WeeDispatcher</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-WeeDispatcher.html#91-106" title="Go to source code">__construct</a>( <span>boolean <var>$internalErrorHandler</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Class constructor
+Optional argument to use the class externally (internal error handler)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Class constructor
+Optional argument to use the class externally (internal error handler)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$internalErrorHandler</var></dt>
+					<dd>True when used outside the framework</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-WeeDispatcher.html">WeeDispatcher</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="attachUrl" id="_attachUrl">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_attachUrl">#</a>
+		<code><a href="source-class-WeeDispatcher.html#108-165" title="Go to source code">attachUrl</a>( <span>string <var>$name</var></span>, <span>string <var>$uri</var></span>, <span>string <var>$controller</var></span>, <span>string <var>$method</var></span>, <span>string <var>$lang</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			<p>Attach URL function
+Create a link between an url and its controller/method</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Attach URL function
+Create a link between an url and its controller/method</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd>Route Name</dd>
+					<dt><var>$uri</var></dt>
+					<dd>Url to be catched</dd>
+					<dt><var>$controller</var></dt>
+					<dd>Controller to be called</dd>
+					<dt><var>$method</var></dt>
+					<dd>Method to be called</dd>
+					<dt><var>$lang</var></dt>
+					<dd>(Optional) Lang associated with the route</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="attach404" id="_attach404">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_attach404">#</a>
+		<code><a href="source-class-WeeDispatcher.html#167-188" title="Go to source code">attach404</a>( <span>string <var>$name</var></span>, <span>string <var>$controller</var></span>, <span>string <var>$method</var></span>, <span>string <var>$lang</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			<p>Attach 404 URL
+Create a link between a 404 page and its controller/method (otherwise throws exception)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Attach 404 URL
+Create a link between a 404 page and its controller/method (otherwise throws exception)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd>Route Name</dd>
+					<dt><var>$controller</var></dt>
+					<dd>Controller to be called</dd>
+					<dt><var>$method</var></dt>
+					<dd>Method to be called</dd>
+					<dt><var>$lang</var></dt>
+					<dd>(Optional) Lang associated with the route</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="refresh" id="_refresh">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_refresh">#</a>
+		<code><a href="source-class-WeeDispatcher.html#190-204" title="Go to source code">refresh</a>( <span>string <var>$location</var></span>, <span>boolean <var>$external</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Refresh
+To use when content has already been sent</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Refresh
+To use when content has already been sent</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$location</var></dt>
+					<dd>Target Location</dd>
+					<dt><var>$external</var></dt>
+					<dd>External or internal redirection</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="redirect" id="_redirect">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_redirect">#</a>
+		<code><a href="source-class-WeeDispatcher.html#206-220" title="Go to source code">redirect</a>( <span>string <var>$location</var></span>, <span>boolean <var>$external</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Redirect
+To use when content has not already been sent</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Redirect
+To use when content has not already been sent</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$location</var></dt>
+					<dd>Target Location</dd>
+					<dt><var>$external</var></dt>
+					<dd>External or internal redirection</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="dispatch" id="_dispatch">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_dispatch">#</a>
+		<code><a href="source-class-WeeDispatcher.html#222-364" title="Go to source code">dispatch</a>( <span>string <var>$url</var></span> )</code>
+
+		<div class="description short">
+			<p>Dispatcher
+Checks registered routes against the given url</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Dispatcher
+Checks registered routes against the given url</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd>URL to be dispatched</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="instantiate" id="_instantiate">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_instantiate">#</a>
+		<code><a href="source-class-WeeDispatcher.html#366-387" title="Go to source code">instantiate</a>( )</code>
+
+		<div class="description short">
+			<p>Instantiator
+Instantiate the target controller to allow user libs integration</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Instantiator
+Instantiate the target controller to allow user libs integration</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="run" id="_run">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_run">#</a>
+		<code><a href="source-class-WeeDispatcher.html#389-406" title="Go to source code">run</a>( )</code>
+
+		<div class="description short">
+			<p>Launcher
+Run the application by calling selected controller and method</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Launcher
+Run the application by calling selected controller and method</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setInternalErrorHandler" id="_setInternalErrorHandler">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setInternalErrorHandler">#</a>
+		<code><a href="source-class-WeeDispatcher.html#488-495" title="Go to source code">setInternalErrorHandler</a>( <span>boolean <var>$internalErrorHandler</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter error handling mode (either true or false)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter error handling mode (either true or false)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$internalErrorHandler</var></dt>
+					<dd>Internal Error Handler</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getInternalErrorHandler" id="_getInternalErrorHandler">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getInternalErrorHandler">#</a>
+		<code><a href="source-class-WeeDispatcher.html#497-503" title="Go to source code">getInternalErrorHandler</a>( )</code>
+
+		<div class="description short">
+			<p>Getter error handling mode (either true or false)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Getter error handling mode (either true or false)</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setAppUrl" id="_setAppUrl">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setAppUrl">#</a>
+		<code><a href="source-class-WeeDispatcher.html#505-513" title="Go to source code">setAppUrl</a>( <span>string <var>$appUrl</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter application Url</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter application Url</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$appUrl</var></dt>
+					<dd>Application base Url</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAppUrl" id="_getAppUrl">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAppUrl">#</a>
+		<code><a href="source-class-WeeDispatcher.html#515-521" title="Go to source code">getAppUrl</a>( )</code>
+
+		<div class="description short">
+			<p>Getter application Url</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Getter application Url</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRequestUrl" id="_getRequestUrl">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRequestUrl">#</a>
+		<code><a href="source-class-WeeDispatcher.html#523-529" title="Go to source code">getRequestUrl</a>( )</code>
+
+		<div class="description short">
+			<p>Getter requestUrl</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Getter requestUrl</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setControllerDir" id="_setControllerDir">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setControllerDir">#</a>
+		<code><a href="source-class-WeeDispatcher.html#531-539" title="Go to source code">setControllerDir</a>( <span>string <var>$controllerDir</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter controllers directory</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter controllers directory</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$controllerDir</var></dt>
+					<dd>Controllers  directory</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getControllerDir" id="_getControllerDir">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getControllerDir">#</a>
+		<code><a href="source-class-WeeDispatcher.html#541-547" title="Go to source code">getControllerDir</a>( )</code>
+
+		<div class="description short">
+			<p>Getter controllers directory</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Getter controllers directory</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getFinalResponse" id="_getFinalResponse">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getFinalResponse">#</a>
+		<code><a href="source-class-WeeDispatcher.html#549-555" title="Go to source code">getFinalResponse</a>( )</code>
+
+		<div class="description short">
+			<p>Getter final response</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Getter final response</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCurrentRouteLang" id="_getCurrentRouteLang">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCurrentRouteLang">#</a>
+		<code><a href="source-class-WeeDispatcher.html#557-567" title="Go to source code">getCurrentRouteLang</a>( )</code>
+
+		<div class="description short">
+			<p>Getter current route Lang</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Getter current route Lang</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCurrentRouteName" id="_getCurrentRouteName">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCurrentRouteName">#</a>
+		<code><a href="source-class-WeeDispatcher.html#569-579" title="Go to source code">getCurrentRouteName</a>( )</code>
+
+		<div class="description short">
+			<p>Getter current route name</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Getter current route name</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCurrentRouteController" id="_getCurrentRouteController">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCurrentRouteController">#</a>
+		<code><a href="source-class-WeeDispatcher.html#581-591" title="Go to source code">getCurrentRouteController</a>( )</code>
+
+		<div class="description short">
+			<p>Getter current route controller</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Getter current route controller</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCurrentRouteMethod" id="_getCurrentRouteMethod">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCurrentRouteMethod">#</a>
+		<code><a href="source-class-WeeDispatcher.html#593-603" title="Go to source code">getCurrentRouteMethod</a>( )</code>
+
+		<div class="description short">
+			<p>Get current route method</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get current route method</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_errors" id="$_errors">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeDispatcher.html#25-29" title="Go to source code"><var>$_errors</var></a>
+
+			<div class="description short">
+				<p>Array of error codes</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Array of error codes</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_errors" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_internalErrorHandler" id="$_internalErrorHandler">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeDispatcher.html#30-34" title="Go to source code"><var>$_internalErrorHandler</var></a>
+
+			<div class="description short">
+				<p>Internal error handler</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Internal error handler</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_internalErrorHandler" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_controllerDir" id="$_controllerDir">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeDispatcher.html#35-39" title="Go to source code"><var>$_controllerDir</var></a>
+
+			<div class="description short">
+				<p>Controllers Directory</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Controllers Directory</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_controllerDir" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_appUrl" id="$_appUrl">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeDispatcher.html#40-44" title="Go to source code"><var>$_appUrl</var></a>
+
+			<div class="description short">
+				<p>Application URL</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Application URL</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_appUrl" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_varTypes" id="$_varTypes">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeDispatcher.html#45-49" title="Go to source code"><var>$_varTypes</var></a>
+
+			<div class="description short">
+				<p>Routes accepted var types</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Routes accepted var types</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_varTypes" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_finalResponse" id="$_finalResponse">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeDispatcher.html#50-54" title="Go to source code"><var>$_finalResponse</var></a>
+
+			<div class="description short">
+				<p>Array of the final response (Lang, Controller, Methods, Args, RouteName)</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Array of the final response (Lang, Controller, Methods, Args, RouteName)</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_finalResponse" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_controllerInstance" id="$_controllerInstance">
+		<td class="attributes"><code>
+			protected  
+			object
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeDispatcher.html#55-59" title="Go to source code"><var>$_controllerInstance</var></a>
+
+			<div class="description short">
+				<p>Instantiated controller</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Instantiated controller</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_controllerInstance" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_requestUrl" id="$_requestUrl">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeDispatcher.html#60-64" title="Go to source code"><var>$_requestUrl</var></a>
+
+			<div class="description short">
+				<p>Request url without get var</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Request url without get var</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_requestUrl" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_staticRoutes" id="$_staticRoutes">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeDispatcher.html#65-69" title="Go to source code"><var>$_staticRoutes</var></a>
+
+			<div class="description short">
+				<p>Static routes (without any dynamic elements</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Static routes (without any dynamic elements</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_staticRoutes" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_dynamicRoutes" id="$_dynamicRoutes">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeDispatcher.html#70-74" title="Go to source code"><var>$_dynamicRoutes</var></a>
+
+			<div class="description short">
+				<p>Array (nbOfElements, array(element1, element2))</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Array (nbOfElements, array(element1, element2))</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_dynamicRoutes" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_routeParams" id="$_routeParams">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeDispatcher.html#75-79" title="Go to source code"><var>$_routeParams</var></a>
+
+			<div class="description short">
+				<p>Store controller (1), method (2), optional lang (3)</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Store controller (1), method (2), optional lang (3)</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_routeParams" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_routes" id="$_routes">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeDispatcher.html#80-84" title="Go to source code"><var>$_routes</var></a>
+
+			<div class="description short">
+				<p>Routes name array</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Routes name array</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_routes" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_404" id="$_404">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeDispatcher.html#85-89" title="Go to source code"><var>$_404</var></a>
+
+			<div class="description short">
+				<p>404 Page storage</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>404 Page storage</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_404" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		WeePHP API API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

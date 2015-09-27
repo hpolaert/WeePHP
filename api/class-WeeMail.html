@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class WeeMail | WeePHP API</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Packages</h3>
+			<ul>
+				<li>
+					<a href="package-None.html">
+						None					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.html">
+						WeePHP<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="package-WeePHP.Core.html">
+						Core					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.UserLibraries.html">
+						UserLibraries					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WeeAuth.html">WeeAuth</a></li>
+				<li><a href="class-WeeConfig.html">WeeConfig</a></li>
+				<li><a href="class-WeeCookie.html">WeeCookie</a></li>
+				<li><a href="class-WeeDBGenericAccess.html">WeeDBGenericAccess</a></li>
+				<li><a href="class-WeeFile.html">WeeFile</a></li>
+				<li><a href="class-WeeFilter.html">WeeFilter</a></li>
+				<li><a href="class-WeeGal.html">WeeGal</a></li>
+				<li><a href="class-WeeImg.html">WeeImg</a></li>
+				<li class="active"><a href="class-WeeMail.html">WeeMail</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+<span>Package</span>			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class WeeMail</h1>
+
+
+	<div class="description">
+	<p>WeeMail</p>
+
+<p>Create and send mails</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-WeePHP.html">WeePHP</a>\<a href="package-WeePHP.UserLibraries.html">UserLibraries</a><br>
+
+				<b>Author:</b>
+				Hugues Polaert <a href="&#109;&#97;&#x69;&#108;&#x74;&#111;&#x3a;&#104;&#x75;&#103;u&#x65;&#115;&#x2e;&#112;&#x6f;&#108;&#x61;&#101;&#x72;&#116;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;m">&#104;&#x75;&#103;u&#x65;&#115;&#x2e;&#112;&#x6f;&#108;&#x61;&#101;&#x72;&#116;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;m</a><br>
+				<b>Version:</b>
+				0.1<br>
+			<b>Located at</b> <a href="source-class-WeeMail.html#16-644" title="Go to source code">WeeMail.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-WeeMail.html">WeeMail</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-WeeMail.html#96-112" title="Go to source code">__construct</a>( <span>boolean <var>$internalErrorHandler</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Class constructor
+Optional argument to use the class externally (internal error handler)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Class constructor
+Optional argument to use the class externally (internal error handler)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$internalErrorHandler</var></dt>
+					<dd>True when used outside the framework</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-WeeMail.html">WeeMail</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="send" id="_send">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_send">#</a>
+		<code><a href="source-class-WeeMail.html#114-212" title="Go to source code">send</a>( <span>boolean <var>$throw</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Send the mail !</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Send the mail !</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$throw</var></dt>
+					<dd>Optional parameter to return an exception instead of an error</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					MailException
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addFrom" id="_addFrom">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addFrom">#</a>
+		<code><a href="source-class-WeeMail.html#481-489" title="Go to source code">addFrom</a>( <span>string <var>$address</var></span>, <span>boolean <var>$validate</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Add sender to email (mandatory)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add sender to email (mandatory)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$address</var></dt>
+					<dd>Sender address</dd>
+					<dt><var>$validate</var></dt>
+					<dd>Defines wether the email address should be checked (by default False)</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addReplyTo" id="_addReplyTo">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addReplyTo">#</a>
+		<code><a href="source-class-WeeMail.html#491-499" title="Go to source code">addReplyTo</a>( <span>string <var>$address</var></span>, <span>boolean <var>$validate</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Add a reply to email address</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add a reply to email address</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$address</var></dt>
+					<dd>Reply to recipient</dd>
+					<dt><var>$validate</var></dt>
+					<dd>Defines wether the email address should be checked (by default False)</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addReturnPath" id="_addReturnPath">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addReturnPath">#</a>
+		<code><a href="source-class-WeeMail.html#501-509" title="Go to source code">addReturnPath</a>( <span>string <var>$address</var></span>, <span>boolean <var>$validate</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Add a return path email address</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add a return path email address</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$address</var></dt>
+					<dd>Bouncing address recipient</dd>
+					<dt><var>$validate</var></dt>
+					<dd>Defines wether the email address should be checked (by default False)</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addTo" id="_addTo">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addTo">#</a>
+		<code><a href="source-class-WeeMail.html#511-521" title="Go to source code">addTo</a>( <span>string <var>$address</var></span>, <span>boolean <var>$validate</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Add a recipient to the mail</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add a recipient to the mail</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$address</var></dt>
+					<dd>Recipient address</dd>
+					<dt><var>$validate</var></dt>
+					<dd>Defines wether the email address should be checked (by default False)</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addCc" id="_addCc">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addCc">#</a>
+		<code><a href="source-class-WeeMail.html#523-533" title="Go to source code">addCc</a>( <span>string <var>$address</var></span>, <span>boolean <var>$validate</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Add a carbon copy</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add a carbon copy</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$address</var></dt>
+					<dd>Recipient address</dd>
+					<dt><var>$validate</var></dt>
+					<dd>Defines wether the email address should be checked (by default False)</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addBcc" id="_addBcc">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addBcc">#</a>
+		<code><a href="source-class-WeeMail.html#535-545" title="Go to source code">addBcc</a>( <span>string <var>$address</var></span>, <span>boolean <var>$validate</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Add a blind carbon copy</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add a blind carbon copy</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$address</var></dt>
+					<dd>Recipient address</dd>
+					<dt><var>$validate</var></dt>
+					<dd>Defines wether the email address should be checked (by default False)</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addAttachment" id="_addAttachment">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addAttachment">#</a>
+		<code><a href="source-class-WeeMail.html#547-562" title="Go to source code">addAttachment</a>( <span>mixed <var>$attachments</var></span> )</code>
+
+		<div class="description short">
+			<p>Add an attachment (relative or absolute path)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add an attachment (relative or absolute path)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attachments</var></dt>
+					<dd>Either single var or array of attachments</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addSubject" id="_addSubject">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addSubject">#</a>
+		<code><a href="source-class-WeeMail.html#564-571" title="Go to source code">addSubject</a>( <span>string <var>$subject</var></span> )</code>
+
+		<div class="description short">
+			<p>Add subject to the mail</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add subject to the mail</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$subject</var></dt>
+					<dd>Email subject</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addHtmlContent" id="_addHtmlContent">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addHtmlContent">#</a>
+		<code><a href="source-class-WeeMail.html#573-580" title="Go to source code">addHtmlContent</a>( <span>string <var>$content</var></span> )</code>
+
+		<div class="description short">
+			<p>Add HTML content to the mail</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add HTML content to the mail</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$content</var></dt>
+					<dd>Add html content</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addTextContent" id="_addTextContent">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addTextContent">#</a>
+		<code><a href="source-class-WeeMail.html#582-589" title="Go to source code">addTextContent</a>( <span>string <var>$content</var></span> )</code>
+
+		<div class="description short">
+			<p>Add text content to the mail</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add text content to the mail</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$content</var></dt>
+					<dd>Add text content</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setUTF8Encoding" id="_setUTF8Encoding">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setUTF8Encoding">#</a>
+		<code><a href="source-class-WeeMail.html#591-598" title="Go to source code">setUTF8Encoding</a>( <span>boolean <var>$active</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			<p>Send email with UTF8 subject and content</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Send email with UTF8 subject and content</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$active</var></dt>
+					<dd>Optionally active UTF8 encoding</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setInternalErrorHandler" id="_setInternalErrorHandler">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setInternalErrorHandler">#</a>
+		<code><a href="source-class-WeeMail.html#617-624" title="Go to source code">setInternalErrorHandler</a>( <span>boolean <var>$internalErrorHandler</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter error handling mode (either true or false)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter error handling mode (either true or false)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$internalErrorHandler</var></dt>
+					<dd>Internal Error Handler</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getInternalErrorHandler" id="_getInternalErrorHandler">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getInternalErrorHandler">#</a>
+		<code><a href="source-class-WeeMail.html#626-632" title="Go to source code">getInternalErrorHandler</a>( )</code>
+
+		<div class="description short">
+			<p>Getter error handling mode (either true or false)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Getter error handling mode (either true or false)</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getError" id="_getError">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getError">#</a>
+		<code><a href="source-class-WeeMail.html#634-643" title="Go to source code">getError</a>( )</code>
+
+		<div class="description short">
+			<p>Getter current error</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Getter current error</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_errors" id="$_errors">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeMail.html#25-29" title="Go to source code"><var>$_errors</var></a>
+
+			<div class="description short">
+				<p>Array of error codes</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Array of error codes</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_errors" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_recipients" id="$_recipients">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeMail.html#30-34" title="Go to source code"><var>$_recipients</var></a>
+
+			<div class="description short">
+				<p>Array of recipients</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Array of recipients</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_recipients" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_ccRecipients" id="$_ccRecipients">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeMail.html#35-39" title="Go to source code"><var>$_ccRecipients</var></a>
+
+			<div class="description short">
+				<p>Array of carbon copies</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Array of carbon copies</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_ccRecipients" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_bccRecipients" id="$_bccRecipients">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeMail.html#40-44" title="Go to source code"><var>$_bccRecipients</var></a>
+
+			<div class="description short">
+				<p>Array of blind carbon copies</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Array of blind carbon copies</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_bccRecipients" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_attachments" id="$_attachments">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeMail.html#45-49" title="Go to source code"><var>$_attachments</var></a>
+
+			<div class="description short">
+				<p>Array of attachments</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Array of attachments</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_attachments" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_internalErrorHandler" id="$_internalErrorHandler">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeMail.html#50-54" title="Go to source code"><var>$_internalErrorHandler</var></a>
+
+			<div class="description short">
+				<p>Internal error handler</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Internal error handler</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_internalErrorHandler" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_sender" id="$_sender">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeMail.html#55-59" title="Go to source code"><var>$_sender</var></a>
+
+			<div class="description short">
+				<p>Email sender</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Email sender</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_sender" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_replyTo" id="$_replyTo">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeMail.html#60-64" title="Go to source code"><var>$_replyTo</var></a>
+
+			<div class="description short">
+				<p>Email reply to address</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Email reply to address</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_replyTo" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_returnPath" id="$_returnPath">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeMail.html#65-69" title="Go to source code"><var>$_returnPath</var></a>
+
+			<div class="description short">
+				<p>Email return path address</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Email return path address</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_returnPath" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_err" id="$_err">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeMail.html#70-74" title="Go to source code"><var>$_err</var></a>
+
+			<div class="description short">
+				<p>Displayable error</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Displayable error</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_err" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_bodyContent" id="$_bodyContent">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeMail.html#75-79" title="Go to source code"><var>$_bodyContent</var></a>
+
+			<div class="description short">
+				<p>Mail alternate content</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Mail alternate content</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_bodyContent" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_alternateContent" id="$_alternateContent">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeMail.html#80-84" title="Go to source code"><var>$_alternateContent</var></a>
+
+			<div class="description short">
+				<p>Mail alternate content</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Mail alternate content</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_alternateContent" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_subject" id="$_subject">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeMail.html#85-89" title="Go to source code"><var>$_subject</var></a>
+
+			<div class="description short">
+				<p>Mail subject</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Mail subject</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_subject" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_utf8" id="$_utf8">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeMail.html#90-94" title="Go to source code"><var>$_utf8</var></a>
+
+			<div class="description short">
+				<p>Send mail with UTF-8 encoding</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Send mail with UTF-8 encoding</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_utf8" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		WeePHP API API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

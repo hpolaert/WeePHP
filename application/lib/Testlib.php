@@ -1,0 +1,1 @@
+<?php// Exemple user libraryclass Testlib {  // Test lib  public function __construct($arg) {    return $arg;  }}

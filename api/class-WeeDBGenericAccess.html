@@ -1,0 +1,1671 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class WeeDBGenericAccess | WeePHP API</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Packages</h3>
+			<ul>
+				<li>
+					<a href="package-None.html">
+						None					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.html">
+						WeePHP<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="package-WeePHP.Core.html">
+						Core					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.UserLibraries.html">
+						UserLibraries					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WeeAuth.html">WeeAuth</a></li>
+				<li><a href="class-WeeConfig.html">WeeConfig</a></li>
+				<li><a href="class-WeeCookie.html">WeeCookie</a></li>
+				<li class="active"><a href="class-WeeDBGenericAccess.html">WeeDBGenericAccess</a></li>
+				<li><a href="class-WeeFile.html">WeeFile</a></li>
+				<li><a href="class-WeeFilter.html">WeeFilter</a></li>
+				<li><a href="class-WeeGal.html">WeeGal</a></li>
+				<li><a href="class-WeeImg.html">WeeImg</a></li>
+				<li><a href="class-WeeMail.html">WeeMail</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+<span>Package</span>			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class WeeDBGenericAccess</h1>
+
+
+	<div class="description">
+	<p>WeeDBGenericAccess</p>
+
+<p>Handle generic db operations through RB</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-WeePHP.html">WeePHP</a>\<a href="package-WeePHP.UserLibraries.html">UserLibraries</a><br>
+
+				<b>Author:</b>
+				Hugues Polaert <a href="&#109;&#97;&#x69;&#108;&#x74;&#111;&#x3a;&#104;&#x75;&#103;u&#x65;&#115;&#x2e;&#112;&#x6f;&#108;&#x61;&#101;&#x72;&#116;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;m">&#104;&#x75;&#103;u&#x65;&#115;&#x2e;&#112;&#x6f;&#108;&#x61;&#101;&#x72;&#116;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;m</a><br>
+				<b>Version:</b>
+				0.1<br>
+			<b>Located at</b> <a href="source-class-WeeDBGenericAccess.html#16-1075" title="Go to source code">WeeDBGenericAccess.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-WeeDBGenericAccess.html">WeeDBGenericAccess</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#36-44" title="Go to source code">__construct</a>( )</code>
+
+		<div class="description short">
+			<p>Class constructor</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Class constructor</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-WeeDBGenericAccess.html">WeeDBGenericAccess</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="insert" id="_insert">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_insert">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#50-101" title="Go to source code">insert</a>( <span>string <var>$table</var></span>, <span>mixed <var>$columns</var></span>, <span>mixed <var>$values</var></span>, <span>boolean <var>$bypass</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Insert method</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Insert method</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd>Object to be stored</dd>
+					<dt><var>$columns</var></dt>
+					<dd>Columns affected</dd>
+					<dt><var>$values</var></dt>
+					<dd>Values to be stored</dd>
+					<dt><var>$bypass</var></dt>
+					<dd>Optional - bypass columns extraction</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="update" id="_update">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_update">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#103-156" title="Go to source code">update</a>( <span>string <var>$table</var></span>, <span>mixed <var>$columns</var></span>, <span>mixed <var>$values</var></span>, <span>mixed <var>$conditions</var></span>, <span>boolean <var>$bypass</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Update method</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Update method</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd>Object to be stored</dd>
+					<dt><var>$columns</var></dt>
+					<dd>Columns affected</dd>
+					<dt><var>$values</var></dt>
+					<dd>Values to be stored</dd>
+					<dt><var>$conditions</var></dt>
+					<dd>Conditions</dd>
+					<dt><var>$bypass</var></dt>
+					<dd>Optional - bypass columns extraction</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete" id="_delete">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_delete">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#158-173" title="Go to source code">delete</a>( <span>string <var>$table</var></span>, <span>mixed <var>$conditions</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Delete a row / set of rows according to a condition / set of conditions</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Delete a row / set of rows according to a condition / set of conditions</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd>Table</dd>
+					<dt><var>$conditions</var></dt>
+					<dd>Conditions</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fetch" id="_fetch">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fetch">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#179-208" title="Go to source code">fetch</a>( <span>string <var>$table</var></span>, <span>array <var>$where</var> = <span class="php-keyword1">NULL</span></span>, <span>array <var>$orderby</var> = <span class="php-keyword1">NULL</span></span>, <span>array <var>$limit</var> = <span class="php-keyword1">NULL</span></span>, <span>boolean <var>$forceLanguage</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Generic fetch method, accepts common SQL operators
+Works as an array representation</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Generic fetch method, accepts common SQL operators
+Works as an array representation</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd>Table</dd>
+					<dt><var>$where</var></dt>
+					<dd>Where (condition or set of conditions)</dd>
+					<dt><var>$orderby</var></dt>
+					<dd>Order by (directly as a string)</dd>
+					<dt><var>$limit</var></dt>
+					<dd>Limit (directly as a string)</dd>
+					<dt><var>$forceLanguage</var></dt>
+					<dd>Retrieve a specific language</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fetchCell" id="_fetchCell">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fetchCell">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#210-223" title="Go to source code">fetchCell</a>( <span>string <var>$table</var></span>, <span>string <var>$column</var></span>, <span>mixed <var>$conditions</var></span> )</code>
+
+		<div class="description short">
+			<p>Fetch a single cell from a table</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Fetch a single cell from a table</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd>Table</dd>
+					<dt><var>$column</var></dt>
+					<dd>Column name</dd>
+					<dt><var>$conditions</var></dt>
+					<dd>Conditions</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fetchRow" id="_fetchRow">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fetchRow">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#225-242" title="Go to source code">fetchRow</a>( <span>string <var>$table</var></span>, <span>mixed <var>$conditions</var></span>, <span>boolean <var>$forceLanguage</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Fetch a row from a table</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Fetch a row from a table</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd>Table</dd>
+					<dt><var>$conditions</var></dt>
+					<dd>Conditions</dd>
+					<dt><var>$forceLanguage</var></dt>
+					<dd>Retrieve a specific language</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fetchColumn" id="_fetchColumn">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fetchColumn">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#244-256" title="Go to source code">fetchColumn</a>( <span>string <var>$table</var></span>, <span>string <var>$column</var></span> )</code>
+
+		<div class="description short">
+			<p>Fetch a column from a table</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Fetch a column from a table</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd>Table</dd>
+					<dt><var>$column</var></dt>
+					<dd>Column</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="lastRow" id="_lastRow">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_lastRow">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#258-274" title="Go to source code">lastRow</a>( <span>string <var>$table</var></span>, <span>boolean <var>$forceLanguage</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Get last inserted row</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get last inserted row</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd>Table</dd>
+					<dt><var>$forceLanguage</var></dt>
+					<dd>Retrieve a specific language</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="lastID" id="_lastID">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_lastID">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#323-334" title="Go to source code">lastID</a>( <span>string <var>$table</var></span> )</code>
+
+		<div class="description short">
+			<p>Get last inserted row ID</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get last inserted row ID</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd>Table</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="query" id="_query">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_query">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#336-345" title="Go to source code">query</a>( <span>string <var>$query</var></span> )</code>
+
+		<div class="description short">
+			<p>Exec sql query through RB</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Exec sql query through RB</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$query</var></dt>
+					<dd>SQL query</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="countRows" id="_countRows">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_countRows">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#347-362" title="Go to source code">countRows</a>( <span>string <var>$table</var></span>, <span>mixed <var>$conditions</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Exec sql count query through RB</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Exec sql count query through RB</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd>Target table</dd>
+					<dt><var>$conditions</var></dt>
+					<dd>Optional conditions</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="countColumn" id="_countColumn">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_countColumn">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#364-380" title="Go to source code">countColumn</a>( <span>string <var>$column</var></span>, <span>string <var>$table</var></span>, <span>mixed <var>$conditions</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Exec sql column count query through RB</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Exec sql column count query through RB</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$column</var></dt>
+					<dd>Column name</dd>
+					<dt><var>$table</var></dt>
+					<dd>Target table</dd>
+					<dt><var>$conditions</var></dt>
+					<dd>Optional conditions</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="countDistinctColumn" id="_countDistinctColumn">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_countDistinctColumn">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#382-398" title="Go to source code">countDistinctColumn</a>( <span>string <var>$column</var></span>, <span>string <var>$table</var></span>, <span>mixed <var>$conditions</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Exec sql distinct column count query through RB</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Exec sql distinct column count query through RB</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$column</var></dt>
+					<dd>Column name</dd>
+					<dt><var>$table</var></dt>
+					<dd>Target table</dd>
+					<dt><var>$conditions</var></dt>
+					<dd>Optional conditions</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getChildren" id="_getChildren">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getChildren">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#404-438" title="Go to source code">getChildren</a>( <span>string <var>$linkedTable</var></span>, <span>integer <var>$id</var></span>, <span>string <var>$childType</var></span>, <span>string <var>$sort</var></span>, <span>boolean <var>$forceLanguage</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Retrieve children from an object ID</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Retrieve children from an object ID</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$linkedTable</var></dt>
+					<dd>Target table</dd>
+					<dt><var>$id</var></dt>
+					<dd>Row ID</dd>
+					<dt><var>$childType</var></dt>
+					<dd>Child type</dd>
+					<dt><var>$sort</var></dt>
+					<dd>Optional sort parameter</dd>
+					<dt><var>$forceLanguage</var></dt>
+					<dd>Retrieve a specific language</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getChild" id="_getChild">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getChild">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#440-473" title="Go to source code">getChild</a>( <span>string <var>$linkedTable</var></span>, <span>integer <var>$id</var></span>, <span>string <var>$childType</var></span>, <span>integer <var>$childID</var></span>, <span>boolean <var>$forceLanguage</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Alias to Retrieve one child</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Alias to Retrieve one child</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$linkedTable</var></dt>
+					<dd>Target table</dd>
+					<dt><var>$id</var></dt>
+					<dd>Row ID</dd>
+					<dt><var>$childType</var></dt>
+					<dd>Child type</dd>
+					<dt><var>$childID</var></dt>
+					<dd>Child ID</dd>
+					<dt><var>$forceLanguage</var></dt>
+					<dd>Retrieve a specific language</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addChild" id="_addChild">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addChild">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#475-511" title="Go to source code">addChild</a>( <span>string <var>$linkedTable</var></span>, <span>integer <var>$id</var></span>, <span>string <var>$childType</var></span>, <span>array <var>$columns</var></span>, <span>array <var>$values</var></span>, <span>boolean <var>$om</var> = <span class="php-keyword1">TRUE</span></span>, <span>boolean <var>$bypass</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Add child object to an object ID</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add child object to an object ID</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$linkedTable</var></dt>
+					<dd>Target table</dd>
+					<dt><var>$id</var></dt>
+					<dd>Row ID</dd>
+					<dt><var>$childType</var></dt>
+					<dd>Child type</dd>
+					<dt><var>$columns</var></dt>
+					<dd>Columns / values association</dd>
+					<dt><var>$values</var></dt>
+					<dd>Columns / values association</dd>
+					<dt><var>$om</var></dt>
+					<dd>One to many / many to many</dd>
+					<dt><var>$bypass</var></dt>
+					<dd>Optional - bypass columns extraction</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="removeChild" id="_removeChild">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_removeChild">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#513-537" title="Go to source code">removeChild</a>( <span>string <var>$linkedTable</var></span>, <span>integer <var>$id</var></span>, <span>string <var>$childType</var></span>, <span>string <var>$childTypeID</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Remove child from an object ID</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Remove child from an object ID</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$linkedTable</var></dt>
+					<dd>Target table</dd>
+					<dt><var>$id</var></dt>
+					<dd>Row ID</dd>
+					<dt><var>$childType</var></dt>
+					<dd>Child Type</dd>
+					<dt><var>$childTypeID</var></dt>
+					<dd>rating ID to be removed</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="removeChildren" id="_removeChildren">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_removeChildren">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#539-550" title="Go to source code">removeChildren</a>( <span>string <var>$linkedTable</var></span>, <span>integer <var>$id</var></span>, <span>string <var>$childType</var></span> )</code>
+
+		<div class="description short">
+			<p>Alias to remove all children for a given object</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Alias to remove all children for a given object</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$linkedTable</var></dt>
+					<dd>Target table</dd>
+					<dt><var>$id</var></dt>
+					<dd>Row ID</dd>
+					<dt><var>$childType</var></dt>
+					<dd>Child Type</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addTags" id="_addTags">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addTags">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#753-767" title="Go to source code">addTags</a>( <span>string <var>$table</var></span>, <span>string <var>$id</var></span>, <span>mixed <var>$tags</var></span> )</code>
+
+		<div class="description short">
+			<p>Add tag(s) to an object</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add tag(s) to an object</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd>Object</dd>
+					<dt><var>$id</var></dt>
+					<dd>Id</dd>
+					<dt><var>$tags</var></dt>
+					<dd>Tags</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="removeTag" id="_removeTag">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_removeTag">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#769-783" title="Go to source code">removeTag</a>( <span>string <var>$table</var></span>, <span>string <var>$id</var></span>, <span>mixed <var>$tags</var></span> )</code>
+
+		<div class="description short">
+			<p>Remove tag(s) from an object</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Remove tag(s) from an object</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd>Object</dd>
+					<dt><var>$id</var></dt>
+					<dd>Id</dd>
+					<dt><var>$tags</var></dt>
+					<dd>Tags</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hasTags" id="_hasTags">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hasTags">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#785-802" title="Go to source code">hasTags</a>( <span>string <var>$table</var></span>, <span>string <var>$id</var></span>, <span>mixed <var>$tags</var></span>, <span>boolean <var>$all</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Check if an object has certain tags</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Check if an object has certain tags</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd>Object</dd>
+					<dt><var>$id</var></dt>
+					<dd>Id</dd>
+					<dt><var>$tags</var></dt>
+					<dd>Tags</dd>
+					<dt><var>$all</var></dt>
+					<dd>All tags must be attached</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getTagsByObjectID" id="_getTagsByObjectID">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getTagsByObjectID">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#804-819" title="Go to source code">getTagsByObjectID</a>( <span>string <var>$table</var></span>, <span>string <var>$id</var></span> )</code>
+
+		<div class="description short">
+			<p>Get all tags associated to an object</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get all tags associated to an object</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd>Object</dd>
+					<dt><var>$id</var></dt>
+					<dd>Id</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getTaggedObjects" id="_getTaggedObjects">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getTaggedObjects">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#821-833" title="Go to source code">getTaggedObjects</a>( <span>string <var>$table</var></span>, <span>mixed <var>$tags</var></span> )</code>
+
+		<div class="description short">
+			<p>Get objects tagged with an array of tags</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get objects tagged with an array of tags</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd>Object</dd>
+					<dt><var>$tags</var></dt>
+					<dd>Tags</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getComment" id="_getComment">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getComment">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#839-850" title="Go to source code">getComment</a>( <span>string <var>$id</var></span> )</code>
+
+		<div class="description short">
+			<p>Retrieve comment by its id</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Retrieve comment by its id</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd>Comment id</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAllComments" id="_getAllComments">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAllComments">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#852-868" title="Go to source code">getAllComments</a>( <span>string <var>$linkedTable</var></span>, <span>integer <var>$id</var></span>, <span>string <var>$sort</var> = <span class="php-quote">'id DESC'</span></span>, <span>string <var>$condition</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Retrieve comments from an object ID</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Retrieve comments from an object ID</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$linkedTable</var></dt>
+					<dd>Target table</dd>
+					<dt><var>$id</var></dt>
+					<dd>Row ID</dd>
+					<dt><var>$sort</var></dt>
+					<dd>Optional sort parameter</dd>
+					<dt><var>$condition</var></dt>
+					<dd>Optional condition parameter</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addComment" id="_addComment">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addComment">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#870-891" title="Go to source code">addComment</a>( <span>string <var>$linkedTable</var></span>, <span>integer <var>$id</var></span>, <span>array <var>$columns</var></span>, <span>array <var>$values</var></span> )</code>
+
+		<div class="description short">
+			<p>Add comments to an object ID</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add comments to an object ID</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$linkedTable</var></dt>
+					<dd>Target table</dd>
+					<dt><var>$id</var></dt>
+					<dd>Row ID</dd>
+					<dt><var>$columns</var></dt>
+					<dd>Columns / values association</dd>
+					<dt><var>$values</var></dt>
+					<dd>Columns / values association</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="updateComment" id="_updateComment">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_updateComment">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#893-915" title="Go to source code">updateComment</a>( <span>integer <var>$id</var></span>, <span>array <var>$columns</var></span>, <span>array <var>$values</var></span> )</code>
+
+		<div class="description short">
+			<p>Update comment content</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Update comment content</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd>Row ID</dd>
+					<dt><var>$columns</var></dt>
+					<dd>Columns / values association</dd>
+					<dt><var>$values</var></dt>
+					<dd>Columns / values association</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="removeComment" id="_removeComment">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_removeComment">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#917-936" title="Go to source code">removeComment</a>( <span>string <var>$linkedTable</var></span>, <span>integer <var>$id</var></span>, <span>integer <var>$commentID</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Remove comment from an object ID</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Remove comment from an object ID</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$linkedTable</var></dt>
+					<dd>Target table</dd>
+					<dt><var>$id</var></dt>
+					<dd>Row ID</dd>
+					<dt><var>$commentID</var></dt>
+					<dd>Comment ID to be removed</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="removeAllComments" id="_removeAllComments">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_removeAllComments">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#938-948" title="Go to source code">removeAllComments</a>( <span>string <var>$linkedTable</var></span>, <span>integer <var>$id</var></span> )</code>
+
+		<div class="description short">
+			<p>Alias to remove all comments</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Alias to remove all comments</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$linkedTable</var></dt>
+					<dd>Target table</dd>
+					<dt><var>$id</var></dt>
+					<dd>Row ID</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAllRatings" id="_getAllRatings">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAllRatings">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#954-970" title="Go to source code">getAllRatings</a>( <span>string <var>$linkedTable</var></span>, <span>integer <var>$id</var></span>, <span>string <var>$sort</var> = <span class="php-quote">'id DESC'</span></span>, <span>string <var>$condition</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Retrieve ratings from an object ID</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Retrieve ratings from an object ID</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$linkedTable</var></dt>
+					<dd>Target table</dd>
+					<dt><var>$id</var></dt>
+					<dd>Row ID</dd>
+					<dt><var>$sort</var></dt>
+					<dd>Optional sort parameter</dd>
+					<dt><var>$condition</var></dt>
+					<dd>Optional condition parameter</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addRating" id="_addRating">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addRating">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#972-993" title="Go to source code">addRating</a>( <span>string <var>$linkedTable</var></span>, <span>integer <var>$id</var></span>, <span>array <var>$columns</var></span>, <span>array <var>$values</var></span> )</code>
+
+		<div class="description short">
+			<p>Add ratings to an object ID</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add ratings to an object ID</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$linkedTable</var></dt>
+					<dd>Target table</dd>
+					<dt><var>$id</var></dt>
+					<dd>Row ID</dd>
+					<dt><var>$columns</var></dt>
+					<dd>Columns / values association</dd>
+					<dt><var>$values</var></dt>
+					<dd>Columns / values association</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="removeRating" id="_removeRating">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_removeRating">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#995-1014" title="Go to source code">removeRating</a>( <span>string <var>$linkedTable</var></span>, <span>integer <var>$id</var></span>, <span>string <var>$ratingID</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Remove rating from an object ID</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Remove rating from an object ID</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$linkedTable</var></dt>
+					<dd>Target table</dd>
+					<dt><var>$id</var></dt>
+					<dd>Row ID</dd>
+					<dt><var>$ratingID</var></dt>
+					<dd>rating ID to be removed</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="removeAllRatings" id="_removeAllRatings">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_removeAllRatings">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#1016-1026" title="Go to source code">removeAllRatings</a>( <span>string <var>$linkedTable</var></span>, <span>integer <var>$id</var></span> )</code>
+
+		<div class="description short">
+			<p>Alias to remove all ratings</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Alias to remove all ratings</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$linkedTable</var></dt>
+					<dd>Target table</dd>
+					<dt><var>$id</var></dt>
+					<dd>Row ID</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setLangsTable" id="_setLangsTable">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setLangsTable">#</a>
+		<code><a href="source-class-WeeDBGenericAccess.html#1065-1074" title="Go to source code">setLangsTable</a>( <span>string <var>$langsTable</var></span> )</code>
+
+		<div class="description short">
+			<p>Set database gallery table name</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set database gallery table name</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$langsTable</var></dt>
+					<dd>Name of the database config table</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_lang" id="$_lang">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeDBGenericAccess.html#25-29" title="Go to source code"><var>$_lang</var></a>
+
+			<div class="description short">
+				<p>Current Language</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Current Language</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_lang" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_dbLangsTable" id="$_dbLangsTable">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeDBGenericAccess.html#30-34" title="Go to source code"><var>$_dbLangsTable</var></a>
+
+			<div class="description short">
+				<p>Database langs table</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Database langs table</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_dbLangsTable" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		WeePHP API API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

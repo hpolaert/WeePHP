@@ -1,0 +1,1716 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class WeeTemplate | WeePHP API</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Packages</h3>
+			<ul>
+				<li>
+					<a href="package-None.html">
+						None					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.html">
+						WeePHP<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="package-WeePHP.Core.html">
+						Core					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.UserLibraries.html">
+						UserLibraries					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WeeController.html">WeeController</a></li>
+				<li><a href="class-WeeDispatcher.html">WeeDispatcher</a></li>
+				<li><a href="class-WeeHooks.html">WeeHooks</a></li>
+				<li><a href="class-WeeModel.html">WeeModel</a></li>
+				<li><a href="class-WeeReporting.html">WeeReporting</a></li>
+				<li><a href="class-WeeSession.html">WeeSession</a></li>
+				<li class="active"><a href="class-WeeTemplate.html">WeeTemplate</a></li>
+				<li><a href="class-WeeTranslator.html">WeeTranslator</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+<span>Package</span>			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class WeeTemplate</h1>
+
+
+	<div class="description">
+	<p>WeeTemplate</p>
+
+<p>Template engine with caching capabilities</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-WeePHP.html">WeePHP</a>\<a href="package-WeePHP.Core.html">Core</a><br>
+
+				<b>Author:</b>
+				Hugues Polaert <a href="&#109;&#97;&#x69;&#108;&#x74;&#111;&#x3a;&#104;&#x75;&#103;u&#x65;&#115;&#x2e;&#112;&#x6f;&#108;&#x61;&#101;&#x72;&#116;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;m">&#104;&#x75;&#103;u&#x65;&#115;&#x2e;&#112;&#x6f;&#108;&#x61;&#101;&#x72;&#116;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;m</a><br>
+				<b>Version:</b>
+				0.1<br>
+			<b>Located at</b> <a href="source-class-WeeTemplate.html#16-1662" title="Go to source code">WeeTemplate.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			WeeTEmplate
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-WeeTemplate.html#151-164" title="Go to source code">__construct</a>( <span>boolean <var>$internalErrorHandler</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Class constructor
+Optional argument to use the class externally (internal error handler)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Class constructor
+Optional argument to use the class externally (internal error handler)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$internalErrorHandler</var></dt>
+					<dd>True when used outside the framework</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					WeeTEmplate
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="render" id="_render">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_render">#</a>
+		<code><a href="source-class-WeeTemplate.html#167-221" title="Go to source code">render</a>( <span>string <var>$template</var></span>, <span>boolean <var>$staticCacheEnabled</var> = <span class="php-keyword1">FALSE</span></span>, <span>string <var>$cacheExt</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Public method to render a template, or a specific template if a cache identifier is passed to the function</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Public method to render a template, or a specific template if a cache identifier is passed to the function</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$template</var></dt>
+					<dd>Template to be rendered (path/to/template/templateName) - ! without the .html extension !</dd>
+					<dt><var>$staticCacheEnabled</var></dt>
+					<dd>(optional, default=null) Overrides cache activation if necessary</dd>
+					<dt><var>$cacheExt</var></dt>
+					<dd>(optional, default=null) Defines a unique identifier for one variation of a template file</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set" id="_set">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set">#</a>
+		<code><a href="source-class-WeeTemplate.html#889-903" title="Go to source code">set</a>( <span>string <var>$variable</var></span>, <span>string <var>$value</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Core public setter for template vars</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Core public setter for template vars</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$variable</var></dt>
+					<dd>Variable to be setted</dd>
+					<dt><var>$value</var></dt>
+					<dd>Value to be associated with the variable</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get" id="_get">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get">#</a>
+		<code><a href="source-class-WeeTemplate.html#905-914" title="Go to source code">get</a>( <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			<p>Core Public getter</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Core Public getter</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd>Variable to be returned</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addToHeader" id="_addToHeader">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addToHeader">#</a>
+		<code><a href="source-class-WeeTemplate.html#1349-1358" title="Go to source code">addToHeader</a>( <span>array <var>$varOrArray</var></span> )</code>
+
+		<div class="description short">
+			<p>Utility method (alias) to add custom integration elements to the header</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Utility method (alias) to add custom integration elements to the header</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$varOrArray</var></dt>
+					<dd>Var or array of .css / .js specific integration</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addToFooter" id="_addToFooter">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addToFooter">#</a>
+		<code><a href="source-class-WeeTemplate.html#1360-1369" title="Go to source code">addToFooter</a>( <span>array <var>$varOrArray</var></span> )</code>
+
+		<div class="description short">
+			<p>Utility method (alias) to add custom integration elements to the footer</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Utility method (alias) to add custom integration elements to the footer</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$varOrArray</var></dt>
+					<dd>Var or array of .css / .js specific integration</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setInternalErrorHandler" id="_setInternalErrorHandler">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setInternalErrorHandler">#</a>
+		<code><a href="source-class-WeeTemplate.html#1476-1483" title="Go to source code">setInternalErrorHandler</a>( <span>boolean <var>$internalErrorHandler</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter error handling mode (either true or false)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter error handling mode (either true or false)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$internalErrorHandler</var></dt>
+					<dd>Internal Error Handler</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getInternalErrorHandler" id="_getInternalErrorHandler">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getInternalErrorHandler">#</a>
+		<code><a href="source-class-WeeTemplate.html#1485-1491" title="Go to source code">getInternalErrorHandler</a>( )</code>
+
+		<div class="description short">
+			<p>Getter error handling mode (either true or false)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Getter error handling mode (either true or false)</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setWebRoot" id="_setWebRoot">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setWebRoot">#</a>
+		<code><a href="source-class-WeeTemplate.html#1493-1500" title="Go to source code">setWebRoot</a>( <span>string <var>$webRoot</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter Web Root system path</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter Web Root system path</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$webRoot</var></dt>
+					<dd>$templateFolder Web Root Folder</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getWebRoot" id="_getWebRoot">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getWebRoot">#</a>
+		<code><a href="source-class-WeeTemplate.html#1502-1508" title="Go to source code">getWebRoot</a>( )</code>
+
+		<div class="description short">
+			<p>Getter Web Root</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Getter Web Root</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setCacheFolder" id="_setCacheFolder">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setCacheFolder">#</a>
+		<code><a href="source-class-WeeTemplate.html#1510-1519" title="Go to source code">setCacheFolder</a>( <span>string <var>$cacheFolder</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter Cache and Compiled Folders</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter Cache and Compiled Folders</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$cacheFolder</var></dt>
+					<dd>Cache Folder</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCacheFolder" id="_getCacheFolder">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCacheFolder">#</a>
+		<code><a href="source-class-WeeTemplate.html#1521-1527" title="Go to source code">getCacheFolder</a>( )</code>
+
+		<div class="description short">
+			<p>Getter Cache and Compiled Folders</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Getter Cache and Compiled Folders</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setTemplateFolder" id="_setTemplateFolder">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setTemplateFolder">#</a>
+		<code><a href="source-class-WeeTemplate.html#1529-1536" title="Go to source code">setTemplateFolder</a>( <span>string <var>$templateFolder</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter Template Folder</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter Template Folder</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$templateFolder</var></dt>
+					<dd>Template Folder</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getTemplateFolder" id="_getTemplateFolder">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getTemplateFolder">#</a>
+		<code><a href="source-class-WeeTemplate.html#1538-1544" title="Go to source code">getTemplateFolder</a>( )</code>
+
+		<div class="description short">
+			<p>Getter template folder</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Getter template folder</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setCacheActive" id="_setCacheActive">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setCacheActive">#</a>
+		<code><a href="source-class-WeeTemplate.html#1546-1553" title="Go to source code">setCacheActive</a>( <span>boolean <var>$cacheActivation</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter Cache Activation</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter Cache Activation</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$cacheActivation</var></dt>
+					<dd>Cache Activation</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCacheActive" id="_getCacheActive">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCacheActive">#</a>
+		<code><a href="source-class-WeeTemplate.html#1555-1561" title="Go to source code">getCacheActive</a>( )</code>
+
+		<div class="description short">
+			<p>Getter cache activation</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Getter cache activation</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setCacheExpirationTime" id="_setCacheExpirationTime">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setCacheExpirationTime">#</a>
+		<code><a href="source-class-WeeTemplate.html#1563-1570" title="Go to source code">setCacheExpirationTime</a>( <span>integer <var>$cacheExpirationTime</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter Cache expiration time</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter Cache expiration time</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$cacheExpirationTime</var></dt>
+					<dd>Cache Expiration Time</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCacheExpirationTime" id="_getCacheExpirationTime">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCacheExpirationTime">#</a>
+		<code><a href="source-class-WeeTemplate.html#1572-1578" title="Go to source code">getCacheExpirationTime</a>( )</code>
+
+		<div class="description short">
+			<p>Getter cache expiration time</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Getter cache expiration time</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setCompiledFilesExpirationTime" id="_setCompiledFilesExpirationTime">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setCompiledFilesExpirationTime">#</a>
+		<code><a href="source-class-WeeTemplate.html#1580-1587" title="Go to source code">setCompiledFilesExpirationTime</a>( <span>integer <var>$compilatedExpirationTime</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter Compilated files expiration time</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter Compilated files expiration time</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$compilatedExpirationTime</var></dt>
+					<dd>Cache Expiration Time</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCompiledFilesExpirationTime" id="_getCompiledFilesExpirationTime">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCompiledFilesExpirationTime">#</a>
+		<code><a href="source-class-WeeTemplate.html#1589-1595" title="Go to source code">getCompiledFilesExpirationTime</a>( )</code>
+
+		<div class="description short">
+			<p>Getter compilated files expiration time</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Getter compilated files expiration time</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setTemplatePath" id="_setTemplatePath">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setTemplatePath">#</a>
+		<code><a href="source-class-WeeTemplate.html#1597-1604" title="Go to source code">setTemplatePath</a>( <span>string <var>$templatePath</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter Template web path</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter Template web path</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$templatePath</var></dt>
+					<dd>Template Path for integration purpose</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setLang" id="_setLang">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setLang">#</a>
+		<code><a href="source-class-WeeTemplate.html#1606-1613" title="Go to source code">setLang</a>( <span>array <var>$lang</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter lang array for translation purpose</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter lang array for translation purpose</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$lang</var></dt>
+					<dd>Lang array</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setEntitiesPath" id="_setEntitiesPath">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setEntitiesPath">#</a>
+		<code><a href="source-class-WeeTemplate.html#1615-1622" title="Go to source code">setEntitiesPath</a>( <span>string <var>$path</var></span> )</code>
+
+		<div class="description short">
+			<p>Public setter to configure Entities path</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Public setter to configure Entities path</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd>Entities path</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setWidgetsPath" id="_setWidgetsPath">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setWidgetsPath">#</a>
+		<code><a href="source-class-WeeTemplate.html#1624-1631" title="Go to source code">setWidgetsPath</a>( <span>string <var>$path</var></span> )</code>
+
+		<div class="description short">
+			<p>Public setter to configure Widgets path</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Public setter to configure Widgets path</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd>Widgets path</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setRouteDetails" id="_setRouteDetails">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setRouteDetails">#</a>
+		<code><a href="source-class-WeeTemplate.html#1633-1656" title="Go to source code">setRouteDetails</a>( <span>array <var>$routeConfig</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter optional route details from WeePHP Framework (WeeDispatcher)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter optional route details from WeePHP Framework (WeeDispatcher)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$routeConfig</var></dt>
+					<dd><p>Lang array</p>
+
+<p>Elements :
+[routeName] => Matched Route Name
+[controller] => Controller
+[method] => Method
+[lang] => Matched Lang
+[templateName] => Template Name
+[cacheActive] => Cache active
+[cacheExpirationTime] => Cache expiration time</p></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setInnerTemplateRouteDetails" id="_setInnerTemplateRouteDetails">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setInnerTemplateRouteDetails">#</a>
+		<code><a href="source-class-WeeTemplate.html#1659-1661" title="Go to source code">setInnerTemplateRouteDetails</a>( <span> <var>$routeConfig</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_errors" id="$_errors">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#25-29" title="Go to source code"><var>$_errors</var></a>
+
+			<div class="description short">
+				<p>Array of error codes</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Array of error codes</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_errors" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_values" id="$_values">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#30-34" title="Go to source code"><var>$_values</var></a>
+
+			<div class="description short">
+				<p>Association of vars setted through $index->set('var', $var);</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Association of vars setted through $index->set('var', $var);</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_values" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_internalErrorHandler" id="$_internalErrorHandler">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#35-39" title="Go to source code"><var>$_internalErrorHandler</var></a>
+
+			<div class="description short">
+				<p>Internal error handler</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Internal error handler</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_internalErrorHandler" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_webRoot" id="$_webRoot">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#40-44" title="Go to source code"><var>$_webRoot</var></a>
+
+			<div class="description short">
+				<p>Web root</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Web root</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_webRoot" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_templateFolder" id="$_templateFolder">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#45-49" title="Go to source code"><var>$_templateFolder</var></a>
+
+			<div class="description short">
+				<p>Template folder</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Template folder</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_templateFolder" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_cacheFolder" id="$_cacheFolder">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#50-54" title="Go to source code"><var>$_cacheFolder</var></a>
+
+			<div class="description short">
+				<p>Cache folder</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Cache folder</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_cacheFolder" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_frontCacheFolder" id="$_frontCacheFolder">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#55-59" title="Go to source code"><var>$_frontCacheFolder</var></a>
+
+			<div class="description short">
+				<p>Cache folder</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Cache folder</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_frontCacheFolder" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_compiledFolder" id="$_compiledFolder">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#60-64" title="Go to source code"><var>$_compiledFolder</var></a>
+
+			<div class="description short">
+				<p>Compiled files folder</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Compiled files folder</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_compiledFolder" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_compiledFile" id="$_compiledFile">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#65-69" title="Go to source code"><var>$_compiledFile</var></a>
+
+			<div class="description short">
+				<p>Compiled file</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Compiled file</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_compiledFile" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_cachedFile" id="$_cachedFile">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#70-74" title="Go to source code"><var>$_cachedFile</var></a>
+
+			<div class="description short">
+				<p>Cached file</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Cached file</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_cachedFile" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_cacheActive" id="$_cacheActive">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#75-79" title="Go to source code"><var>$_cacheActive</var></a>
+
+			<div class="description short">
+				<p>Cache activation</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Cache activation</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_cacheActive" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_cacheExpirationTime" id="$_cacheExpirationTime">
+		<td class="attributes"><code>
+			protected  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#80-84" title="Go to source code"><var>$_cacheExpirationTime</var></a>
+
+			<div class="description short">
+				<p>Cache expiration time</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Cache expiration time</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_cacheExpirationTime" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_compilatedExpirationTime" id="$_compilatedExpirationTime">
+		<td class="attributes"><code>
+			protected  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#85-89" title="Go to source code"><var>$_compilatedExpirationTime</var></a>
+
+			<div class="description short">
+				<p>Compilated files expiration time</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Compilated files expiration time</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_compilatedExpirationTime" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_cacheExt" id="$_cacheExt">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#90-94" title="Go to source code"><var>$_cacheExt</var></a>
+
+			<div class="description short">
+				<p>Cache extension (unique identifier)</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Cache extension (unique identifier)</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_cacheExt" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_headerCustomContent" id="$_headerCustomContent">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#95-99" title="Go to source code"><var>$_headerCustomContent</var></a>
+
+			<div class="description short">
+				<p>Header custom content (specific .js and .css to current template)</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Header custom content (specific .js and .css to current template)</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_headerCustomContent" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_footerCustomContent" id="$_footerCustomContent">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#100-104" title="Go to source code"><var>$_footerCustomContent</var></a>
+
+			<div class="description short">
+				<p>Footer custom content (specific .js and .css to current template)</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Footer custom content (specific .js and .css to current template)</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_footerCustomContent" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_headerElements" id="$_headerElements">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#105-109" title="Go to source code"><var>$_headerElements</var></a>
+
+			<div class="description short">
+				<p>Header array of specific integration elements</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Header array of specific integration elements</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_headerElements" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_footerElements" id="$_footerElements">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#110-114" title="Go to source code"><var>$_footerElements</var></a>
+
+			<div class="description short">
+				<p>Footer array of specific integration elements</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Footer array of specific integration elements</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_footerElements" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_templatePath" id="$_templatePath">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#115-119" title="Go to source code"><var>$_templatePath</var></a>
+
+			<div class="description short">
+				<p>Template url location for relative integration purpose</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Template url location for relative integration purpose</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_templatePath" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_lang" id="$_lang">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#120-124" title="Go to source code"><var>$_lang</var></a>
+
+			<div class="description short">
+				<p>Langs Array for trasnlations purpose</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Langs Array for trasnlations purpose</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_lang" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_routeDetails" id="$_routeDetails">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#125-129" title="Go to source code"><var>$_routeDetails</var></a>
+
+			<div class="description short">
+				<p>Route details array (parameters from WeeDispatcher)</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Route details array (parameters from WeeDispatcher)</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_routeDetails" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_entitiesPath" id="$_entitiesPath">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#130-134" title="Go to source code"><var>$_entitiesPath</var></a>
+
+			<div class="description short">
+				<p>Entities location</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Entities location</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_entitiesPath" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_widgetsPath" id="$_widgetsPath">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#135-139" title="Go to source code"><var>$_widgetsPath</var></a>
+
+			<div class="description short">
+				<p>Widgets location</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Widgets location</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_widgetsPath" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_finalRoutingResponse" id="$_finalRoutingResponse">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#140-144" title="Go to source code"><var>$_finalRoutingResponse</var></a>
+
+			<div class="description short">
+				<p>WeeDispatcher final response</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>WeeDispatcher final response</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_finalRoutingResponse" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_templateName" id="$_templateName">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeTemplate.html#145-149" title="Go to source code"><var>$_templateName</var></a>
+
+			<div class="description short">
+				<p>Template Name for configuration purpose</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Template Name for configuration purpose</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_templateName" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		WeePHP API API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class WeeLoader | WeePHP API</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Packages</h3>
+			<ul>
+				<li>
+					<a href="package-None.html">
+						None					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.html">
+						WeePHP<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="package-WeePHP.Core.html">
+						Core					</a>
+
+						</li>
+				<li>
+					<a href="package-WeePHP.UserLibraries.html">
+						UserLibraries					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-WeeLoader.html">WeeLoader</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+<span>Package</span>			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class WeeLoader</h1>
+
+
+	<div class="description">
+	<p>WeeLoader</p>
+
+<p>Core libray to load models, helpers &amp; libraries (within the application)</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		
+
+				<b>Version:</b>
+				0.1<br>
+			<b>Located at</b> <a href="source-class-WeeLoader.html#16-415" title="Go to source code">WeeLoader.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-WeeLoader.html">WeeLoader</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-WeeLoader.html#74-87" title="Go to source code">__construct</a>( <span>boolean <var>$internalErrorHandler</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Class constructor
+Optional argument to use the class externally (internal error handler)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Class constructor
+Optional argument to use the class externally (internal error handler)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$internalErrorHandler</var></dt>
+					<dd>True when used outside the framework</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-WeeLoader.html">WeeLoader</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="model" id="_model">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_model">#</a>
+		<code><a href="source-class-WeeLoader.html#135-165" title="Go to source code">model</a>( <span>string <var>$model</var></span>, <span>string <var>$alias</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Model loading method (alias to LoadClass)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Model loading method (alias to LoadClass)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd>Model name</dd>
+					<dt><var>$alias</var></dt>
+					<dd>Optional alias to be given</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validator" id="_validator">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validator">#</a>
+		<code><a href="source-class-WeeLoader.html#167-197" title="Go to source code">validator</a>( <span>string <var>$validator</var></span> )</code>
+
+		<div class="description short">
+			<p>RedBean loading method (alias to LoadClass)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>RedBean loading method (alias to LoadClass)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$validator</var></dt>
+					<dd>Validator name</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="library" id="_library">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_library">#</a>
+		<code><a href="source-class-WeeLoader.html#199-245" title="Go to source code">library</a>( <span>string <var>$library</var></span>, <span>string <var>$alias</var> = <span class="php-keyword1">NULL</span></span>, <span>mixed <var>$params</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Library loading method</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Library loading method</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$library</var></dt>
+					<dd>Model name</dd>
+					<dt><var>$alias</var></dt>
+					<dd>Optional alias to be given</dd>
+					<dt><var>$params</var></dt>
+					<dd>Optional parameters</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="helper" id="_helper">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_helper">#</a>
+		<code><a href="source-class-WeeLoader.html#247-296" title="Go to source code">helper</a>( <span>array <var>$helpers</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			<p>Helper loading method</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Helper loading method</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$helpers</var></dt>
+					<dd>Helper(s) name</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setInternalErrorHandler" id="_setInternalErrorHandler">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setInternalErrorHandler">#</a>
+		<code><a href="source-class-WeeLoader.html#380-387" title="Go to source code">setInternalErrorHandler</a>( <span>boolean <var>$internalErrorHandler</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter error handling mode (either true or false)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter error handling mode (either true or false)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$internalErrorHandler</var></dt>
+					<dd>Internal Error Handler</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setHelpersPaths" id="_setHelpersPaths">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setHelpersPaths">#</a>
+		<code><a href="source-class-WeeLoader.html#389-396" title="Go to source code">setHelpersPaths</a>( <span>array <var>$paths</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter helpers paths</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter helpers paths</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$paths</var></dt>
+					<dd>System and application helpers path</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setLibrariesPaths" id="_setLibrariesPaths">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setLibrariesPaths">#</a>
+		<code><a href="source-class-WeeLoader.html#398-405" title="Go to source code">setLibrariesPaths</a>( <span>array <var>$paths</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter libraries paths</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter libraries paths</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$paths</var></dt>
+					<dd>System and application libraries path</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setModelsPath" id="_setModelsPath">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setModelsPath">#</a>
+		<code><a href="source-class-WeeLoader.html#407-414" title="Go to source code">setModelsPath</a>( <span>string <var>$path</var></span> )</code>
+
+		<div class="description short">
+			<p>Setter models path</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setter models path</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd>Application models path</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_errors" id="$_errors">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeLoader.html#26-30" title="Go to source code"><var>$_errors</var></a>
+
+			<div class="description short">
+				<p>Array of error codes</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Array of error codes</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_errors" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_loadedHelpers" id="$_loadedHelpers">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeLoader.html#32-36" title="Go to source code"><var>$_loadedHelpers</var></a>
+
+			<div class="description short">
+				<p>Store loaded helpers</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Store loaded helpers</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_loadedHelpers" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_loadedLibraries" id="$_loadedLibraries">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeLoader.html#38-42" title="Go to source code"><var>$_loadedLibraries</var></a>
+
+			<div class="description short">
+				<p>Store loaded helpers</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Store loaded helpers</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_loadedLibraries" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_loadedModels" id="$_loadedModels">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeLoader.html#44-48" title="Go to source code"><var>$_loadedModels</var></a>
+
+			<div class="description short">
+				<p>Store loaded helpers</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Store loaded helpers</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_loadedModels" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_helpersPaths" id="$_helpersPaths">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeLoader.html#50-54" title="Go to source code"><var>$_helpersPaths</var></a>
+
+			<div class="description short">
+				<p>Helpers paths</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Helpers paths</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_helpersPaths" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_librariesPaths" id="$_librariesPaths">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeLoader.html#56-60" title="Go to source code"><var>$_librariesPaths</var></a>
+
+			<div class="description short">
+				<p>Libraries paths</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Libraries paths</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_librariesPaths" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_internalErrorHandler" id="$_internalErrorHandler">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeLoader.html#62-66" title="Go to source code"><var>$_internalErrorHandler</var></a>
+
+			<div class="description short">
+				<p>Error handling method (internal / external)</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Error handling method (internal / external)</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_internalErrorHandler" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_modelsPath" id="$_modelsPath">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WeeLoader.html#68-72" title="Go to source code"><var>$_modelsPath</var></a>
+
+			<div class="description short">
+				<p>Models path</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Models path</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_modelsPath" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		WeePHP API API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
