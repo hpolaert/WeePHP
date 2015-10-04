@@ -52,6 +52,7 @@ class WeeHooks {
     Wee()->view->setLang(Wee()->config->fetch('currLangArray'));
     Wee()->view->setTemplatePath(TEMPLATE_WEB_PATH);
     Wee()->view->setEntitiesPath(DIR_A_ENTITIES);
+    Wee()->view->setTplExt(TPL_EXT);
     Wee()->view->setWidgetsPath(DIR_A_WIDGETS);
     Wee()->view->setRouteDetails(Wee()->config->fetch('routerCfg') != NULL ? Wee()->config->fetch('routerCfg') : NULL);
     // WeeDB Settings

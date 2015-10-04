@@ -4,7 +4,7 @@
  *
  * Light Framework, quick development !
  *
- * @package       WeePHP
+ * @package       WeePHP\UserLibraries
  * @author        Hugues Polaert <hugues.polaert@gmail.com>
  * @link          http://www.weephp.net
  * @version       0.1

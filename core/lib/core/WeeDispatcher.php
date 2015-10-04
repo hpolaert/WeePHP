@@ -591,7 +591,7 @@ class WeeDispatcher {
   }
 
   /**
-   * Get current route method
+   * Getter current route method
    * @return string
    */
   public function getCurrentRouteMethod() {

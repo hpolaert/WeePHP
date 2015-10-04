@@ -60,7 +60,7 @@ define('PHP_EXT', '.php');
 /**
  * Template files extension
  */
-define('TPL_EXT', '.tpl');
+define('TPL_EXT', '.html');
 /**
  * Bootstrap core file
  */

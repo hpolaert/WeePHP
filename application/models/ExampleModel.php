@@ -1,0 +1,1 @@
+<?phpclass ExampleModel extends WeeModel {  public function __construct() {    // Call the Model constructor    // Every model should implement this structure    parent::__construct();  }}

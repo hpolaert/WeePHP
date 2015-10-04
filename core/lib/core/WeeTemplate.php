@@ -147,6 +147,11 @@ class WeeTemplate {
    * @var string $_finalRoutingResponse
    */
   protected $_templateName;
+    /**
+   * Template file extension
+   * @var string $_tplExt
+   */
+  protected $_tplExt;
 
   /**
    * Class constructor
@@ -176,7 +181,7 @@ class WeeTemplate {
   public function render($template, $staticCacheEnabled = FALSE, $cacheExt = NULL) {
     // Template location check
     $this->_templateName = $template;
-    $tplLocation = $this->_templateFolder . DIRECTORY_SEPARATOR . $template . '.html';
+    $tplLocation = $this->_templateFolder . DIRECTORY_SEPARATOR . $template . $this->_tplExt;
     if (file_exists($tplLocation)) {
       // Initialize outputContent
       $outputContent = '';
@@ -1628,6 +1633,15 @@ class WeeTemplate {
    */
   public function setWidgetsPath($path) {
     $this->_widgetsPath = $path;
+  }
+
+  /**
+   * Public setter to configure Template extension
+   *
+   * @param string $path Widgets path
+   */
+  public function setTplExt($ext) {
+    $this->_tplExt = $ext;
   }
 
   /**
